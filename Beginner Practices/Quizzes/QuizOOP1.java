@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class QuizMaker {
+public class QuizOOP1 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Lesson 1 or Lesson 2 (1 or 2)? >");
