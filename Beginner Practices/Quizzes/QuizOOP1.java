@@ -19,64 +19,79 @@ public class QuizOOP1 {
     }
     public static void quiz1(){
         String[] questions = {
-            "This is the process of creating a set of instructions that a computer can execute to perform specific tasks.",
-            "This is style or way of thinking about programming. It provides a structured approach to writing software based on certain principles and methodologies.",
-            "Give the Different PRogramming Paradigms:", "Why do we need to study programming?", 
-            "This is a programming paradigm centered around concepts of objects.",
-            "Give me the key concepts of OOP:",
-            "Give me the programming languages for OOP:",
-            "This is where you java program always starts. It begins with this keyword.",
-            "This is an access modifier. Access modifiers are keywords that can be used to control the visibility of fields, methods, and constructors.",
-            "Give me the access modifiers:",
-            "This is the keyword to identify that this line of code is a class declaration.",
-            "This is where the program starts its execution or simple entry point of Java programs",
-            "This is used when there is no object instance for the class.",
-            "These are nouns of a programming language that is, they are entities (values and data) that act or are acted upon.",
-            "This refers to the type of value a variable has and what type of mathematical, relational, or logical operations can be applied",
-            "Try to give me the rules for variable names:",
-            "Give me the naming conventions in Java:",
-            "Naming convention for variables and methods.",
-            "Naming convention for classes, interfaces, annotations, enums, records",
-            "Naming convention for constants.",
-            "Naming convention for packages and property files.",
-            "Naming convention not recommended.",
-            "Give me the data types:",
-            "The process of converting the value of one data type to another data type.",
-            "Give me the two types of type casting:",
-            "Give me the operators:",
-            "This is a java class to read text from an input stream by vuffering characteristics that seamlessly reads characters, arrays, or lines.",
-            "This is used to get user input of the primitive types",
-            "This provices your programs to selectively execute other statements based on criteria",
-            "This conditionally performs statements based on some expression"
+            // TOPIC 1: Basic Data Structures and Algorithms
+            "Which data structure stores elements of the same type in contiguous memory and supports O(1) access using an index?",
+            "Which data structure is made of nodes with pointers and can grow or shrink dynamically?",
+            "Which data structure follows the Last In, First Out (LIFO) principle?",
+            "Which data structure follows the First In, First Out (FIFO) principle?",
+            "Which data structure is hierarchical and consists of nodes connected by edges?",
+
+            // TOPIC 2: Data Types, ADTs, Data Structures
+            "What defines the type of value a variable can hold and the operations allowed on it?",
+            "What data concept specifies what operations can be done but not how they are implemented, promoting abstraction?",
+            "What refers to the ways of organizing and storing data for efficient manipulation?",
+
+            // Categories of Data Structures
+            "Which category of data structure includes basic building blocks such as integers, characters, and floats?",
+            "Which category of data structure is formed by combining primitive types like arrays, strings, and records?",
+            "Which category of data structure includes structures with multiple levels and connections like lists, stacks, and trees?",
+            "Which category combines other structures to store complex relationships like arrays of records?",
+            "Which category is designed for reliable large-scale storage such as sequential or indexed files?",
+
+            // Data Structure Operations
+            "Which data structure operation adds new data elements?",
+            "Which operation removes specific elements from a structure?",
+            "Which operation systematically visits each element in a structure?",
+            "Which operation locates an element based on a key or value?",
+            "Which operation arranges data elements in a certain order such as ascending or descending?",
+            "Which operation combines two structures into one?",
+            "Which operation modifies existing data elements in a structure?",
+
+            // TOPIC 3: Importance of Data Structures
+            "What benefit of data structures focuses on optimizing time and memory during program execution?",
+            "What benefit of data structures allows programs to handle growing data sizes?",
+            "Which advantage of data structures helps simplify code updates and error handling?",
+            "Which advantage of data structures allows structures to be used in multiple programs?",
+            "Which advantage of data structures supports building efficient algorithms?"
         };
+
         String[] answers = {
-            "Programming", "Programming Paradigm", "Imperative, Procedural, Object Oriented, Functional, Logical, Declarative", 
-            "Develops problem-solving skills, understanding software and technology", "Object Oriented Programming", 
-            "Objects, Classes, Encapsulation, Abstraction, Inheritance, Polymorphism", "Java, C++, Python, Ruby, C#",
-            "Class",
-            "Public",
-            "Public, Protected, Default, Private",
-            "Class",
-            "Main",
-            "Static",
-            "Variables",
-            "Data Type",
-            "Not keyword, or boolean, no same name in same scope, lowercase then uppercase",
-            "Lower Camel, Upper Camel, Screaming Snake, Lower dot, Kebab",
-            "Lower Camel",
-            "Upper Camel",
-            "Screaming Snake",
-            "Lower Dot",
-            "Kebab",
-            "Byte, Short, Int, Long, Float, Double, Boolean, Char",
-            "Type Casting",
-            "Widening Type, Narrowing Type",
-            "Arithmetic, Unary, Increment and Decrement, Relational, Conditional",
-            "BufferedReader",
-            "Scanner",
-            "If-Else",
-            "Switch"
+            // TOPIC 1
+            "Arrays",
+            "Linked Lists",
+            "Stacks",
+            "Queues",
+            "Trees",
+
+            // TOPIC 2
+            "Data Types",
+            "Abstract Data Types (ADTs)",
+            "Data Structures",
+
+            // Categories
+            "Primitive Data Structures",
+            "Simple Data Structures",
+            "Complex Data Structures",
+            "Compound Data Structures",
+            "File Organization",
+
+            // Operations
+            "Insertion",
+            "Deletion",
+            "Traversal",
+            "Searching",
+            "Sorting",
+            "Merging",
+            "Updating",
+
+            // Importance of Data Structures
+            "Efficiency",
+            "Scalability",
+            "Maintainability",
+            "Reusability",
+            "Foundation for Algorithms"
         };
+
 
         Random rand = new Random();
         Scanner scanner = new Scanner(System.in);
