@@ -17,7 +17,7 @@ public class Penguin implements ActionListener {
         button = new JButton();
 
     
-        ImageIcon penguinIcon = new ImageIcon("penguin.jpg");
+        ImageIcon penguinIcon = new ImageIcon("penguin.jpeg");
         Image scaledImg = penguinIcon.getImage().getScaledInstance(400, 400, Image.SCALE_SMOOTH);
         ImageIcon scaledIcon = new ImageIcon(scaledImg);
 
@@ -55,6 +55,7 @@ public class Penguin implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == button) {
             label.setText("I Love You Too!");
+            button.setEnabled(false);
         }
     }
 
