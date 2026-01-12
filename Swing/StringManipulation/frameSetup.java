@@ -40,7 +40,8 @@ public class frameSetup extends JFrame implements ChangeListener, ActionListener
         panelText.setLayout(null);
 
 
-        textBox = new JTextField("Enter Your String", 20);
+        textBox = new JTextField("Enter Your String");
+        textBox.setFont(new Font("Dialog", Font.PLAIN, 20));
         textBox.setBounds(25, 28, 650, 70);
         panelText.add(textBox);
 
@@ -49,7 +50,6 @@ public class frameSetup extends JFrame implements ChangeListener, ActionListener
         panelAttri.setBounds(0, 134, 700, 133);
         panelAttri.setLayout(null);
 
-        // Setting up the text for labeling certain parts
         JLabel attriText = new JLabel("Text Attributes");
         attriText.setBounds(308, 0, 120, 20);
         JLabel sizeText = new JLabel("Text Size: ");
@@ -58,7 +58,6 @@ public class frameSetup extends JFrame implements ChangeListener, ActionListener
         JLabel styleText = new JLabel("Style: ");
         styleText.setFont(new Font("Dialog", Font.PLAIN, 10));
 
-        // Setting up the Panels for the Text Attributes
         JPanel sizePanel = new JPanel();
         sizePanel.setBackground(new Color(230, 225, 225));
         sizePanel.setBounds(25, 30, 650, 45);
@@ -72,7 +71,6 @@ public class frameSetup extends JFrame implements ChangeListener, ActionListener
         colorFontPanel.setLayout(new GridLayout(2, 2, 20,2));
 
      
-        // Sliders for the Text Size
         sizeSlider = new JSlider(0, 80, 20);
         sizeSlider.setPreferredSize(new Dimension(530, 40));
         sizeSlider.setPaintTicks(true);
@@ -84,7 +82,6 @@ public class frameSetup extends JFrame implements ChangeListener, ActionListener
         sizeSlider.setBackground(new Color(230, 225, 225));
 
        
-        // Radiobuttons for Text Style
         groupBold = new ButtonGroup();
 
         regStyle = new JRadioButton("Regular");
@@ -104,19 +101,17 @@ public class frameSetup extends JFrame implements ChangeListener, ActionListener
 
         regStyle.setSelected(true);
         
-        // Another text, this labels the combo box
         JLabel colorText = new JLabel("Text Color:");
         colorText.setFont(new Font("Dialog", Font.PLAIN, 10));
         JLabel fontText = new JLabel("Text Font:");
         fontText.setFont(new Font("Dialog", Font.PLAIN, 10));
 
-        // Combo Boxes for color and font
         textColor = new JComboBox(colorsArr);
         textColor.setFont(new Font("Dialog", Font.PLAIN, 10));
         textFont = new JComboBox(fontsArr);
         textFont.setFont(new Font("Dialog", Font.PLAIN, 10));
 
-        // Adding
+
         groupBold.add(regStyle);
         groupBold.add(boldStyle);
         groupBold.add(italicStyle);
@@ -137,7 +132,7 @@ public class frameSetup extends JFrame implements ChangeListener, ActionListener
         panelAttri.add(boldPanel);
         panelAttri.add(colorFontPanel);
 
-        // Event Listeners
+
 
         sizeSlider.addChangeListener(this);
         regStyle.addActionListener(this);
@@ -146,7 +141,6 @@ public class frameSetup extends JFrame implements ChangeListener, ActionListener
         textColor.addActionListener(this);
         textFont.addActionListener(this);
 
-        // --------------- STRING INPUT ---------------------
         panelMani.setBackground(new Color(230, 225, 225));
         panelMani.setBounds(0, 267, 700, 133);
 
@@ -189,7 +183,6 @@ public class frameSetup extends JFrame implements ChangeListener, ActionListener
 
         textBox.setFont(new Font(selectedFont, selectedStyle, selectedSize));
     
-        // Update color
         String selectedColor = (String) textColor.getSelectedItem();
         switch(selectedColor) {
             case "Black":
