@@ -1,0 +1,531 @@
+What is an experiment in probability?
+Any process that produces outcomes
+A sequence of numbers
+A sorted list of events
+A type of biased coin
+Any process that produces outcomes
+
+What is the sample space of an experiment?
+The set of all possible outcomes
+Only the successful outcomes
+The subset of even outcomes
+The set of impossible outcomes
+The set of all possible outcomes
+
+Which of the following is an event in probability?
+A subset of the sample space
+The entire sample space only
+An impossible outcome
+The union of all events
+A subset of the sample space
+
+How did Laplace define probability?
+Number of successful outcomes divided by total possible outcomes
+Sum of all outcomes
+Number of trials divided by successes
+Product of outcomes
+Number of successful outcomes divided by total possible outcomes
+
+If a fair die is rolled, what is the probability of rolling an odd number?
+1/2
+1/3
+1/6
+2/3
+1/2
+
+When outcomes are not equally likely, what must be done?
+Assign probabilities to each outcome
+Use Laplace’s formula directly
+Ignore unlikely outcomes
+Discard the experiment
+Assign probabilities to each outcome
+
+What is the complement of an event E?
+All outcomes not in E
+The same as E
+Only impossible outcomes
+Only successful outcomes
+All outcomes not in E
+
+If a die is rolled, what is the probability that it does not show a 4?
+5/6
+1/6
+4/6
+1/2
+5/6
+
+How do you calculate the probability of the union of two events E1 and E2?
+P(E1 ∪ E2) = P(E1) + P(E2) − P(E1 ∩ E2)
+P(E1) × P(E2)
+P(E1) − P(E2)
+P(E1 ∩ E2)
+P(E1 ∪ E2) = P(E1) + P(E2) − P(E1 ∩ E2)
+
+A positive integer from 1 to 100 is chosen. What is the probability it is divisible by 2 or 5?
+0.6
+0.5
+0.3
+0.4
+0.6
+
+What two conditions must probabilities satisfy in a sample space?
+Each probability is between 0 and 1, and all probabilities add up to 1
+Probabilities are integers, and sum is 1
+All probabilities are equal, and sum is 1
+Probabilities are positive and less than 0.5
+Each probability is between 0 and 1, and all probabilities add up to 1
+
+A biased die has 3 appearing twice as often as other numbers. What is the probability of rolling an odd number?
+4/7
+1/2
+3/6
+5/7
+4/7
+
+What is conditional probability?
+The probability of an event occurring given another event has occurred
+The probability of independent events multiplied
+The sum of all probabilities in a space
+The probability of an event occurring alone
+The probability of an event occurring given another event has occurred
+
+A coin is flipped three times. Given the first flip is tails, what is the probability of an odd number of tails?
+1/2
+1/3
+1/4
+2/3
+1/2
+
+A 4-bit string starts with 0. What is the probability it contains at least two consecutive zeros?
+5/16
+1/16
+10/16
+8/16
+5/16
+
+A family has two children. Given at least one is a boy, what is the probability both are boys?
+1/3
+1/2
+1/4
+2/3
+1/3
+
+What does Bayes’ Theorem allow you to do?
+Update probabilities when new information is available
+Compute unconditional probabilities only
+Ignore prior information
+Compute only independent events
+Update probabilities when new information is available
+
+In Bayes’ Theorem, what does P(A|B) represent?
+Updated probability of A given B has occurred
+Probability of B given A
+Initial probability of A
+Total probability of B
+Updated probability of A given B has occurred
+
+What is the Total Probability Theorem used for?
+Calculating the probability of an event happening in several different ways
+Finding the complement of an event
+Checking if events are independent
+Finding conditional probability only
+Calculating the probability of an event happening in several different ways
+
+How do you check if two events are independent?
+Check if P(A ∩ B) = P(A) × P(B)
+Check if P(A) = P(B)
+Check if P(A|B) = 0
+Check if P(A) + P(B) = 1
+Check if P(A ∩ B) = P(A) × P(B)
+
+What is a simple way to compute the probability of at least one event happening in a sequence of trials?
+Use the complement rule: 1 − P(none occur)
+Add the probabilities of all events directly
+Multiply all probabilities
+Ignore dependent events
+Use the complement rule: 1 − P(none occur)
+
+What is the formula for probability of an event using Laplace’s definition?
+Number of favorable outcomes divided by total possible outcomes
+Sum of all probabilities
+Product of all outcomes
+Difference between successes and failures
+Number of favorable outcomes divided by total possible outcomes
+
+What is a relation in discrete mathematics?
+A connection between elements of two sets
+A type of function only
+A set of numbers
+A matrix of integers
+A connection between elements of two sets
+
+What is a binary relation?
+A relation involving two sets made up of ordered pairs
+A relation involving only one set
+A relation with no ordered pairs
+A relation that uses only numbers
+A relation involving two sets made up of ordered pairs
+
+If aRb, what does this notation mean?
+(a,b) ∈ R, a is related to b
+a is not related to b
+(a,b) ∉ R
+b is related to a only
+(a,b) ∈ R, a is related to b
+
+Which of the following is an example of a relation using set notation?
+R = {(0,a), (0,b), (1,a), (2,b)}
+R = {1,2,3}
+R = {(a,b,c)}
+R = 0,1,2
+R = {(0,a), (0,b), (1,a), (2,b)}
+
+How can relations be represented?
+Set notation, matrix form, and digraphs
+Only as a function
+Only using arrows
+Only as a list of numbers
+Set notation, matrix form, and digraphs
+
+What is a reflexive relation?
+Every element is related to itself
+Every element is related to every other element
+No element is related to itself
+Only the first element is related to itself
+Every element is related to itself
+
+Which of the following is a symmetric relation?
+Whenever aRb, then bRa
+Whenever aRb, a=b
+Whenever aRb and bRa never occurs
+Whenever aRb, then aRc
+Whenever aRb, then bRa
+
+What does it mean for a relation to be transitive?
+If aRb and bRc, then aRc
+If aRb, then aRc
+If aRb and bRa, then a=b
+If no pairs are repeated
+If aRb and bRc, then aRc
+
+What is an antisymmetric relation?
+If aRb and bRa, then a=b
+If aRb and bRa never occurs
+If every element is related to itself
+If aRb and bRc, then aRc
+If aRb and bRa, then a=b
+
+How do you combine relations?
+Using union, intersection, and difference
+By adding their elements numerically
+By multiplying the sets
+By ignoring duplicates
+Using union, intersection, and difference
+
+What is the Cartesian product of two sets A and B?
+All possible ordered pairs (a,b) where a ∈ A, b ∈ B
+A + B
+The sum of elements of A and B
+The intersection of A and B
+All possible ordered pairs (a,b) where a ∈ A, b ∈ B
+
+What is an n-ary relation?
+A relation that involves n sets and is a subset of their Cartesian product
+A relation with only two sets
+A relation without ordered pairs
+A function from numbers to numbers
+A relation that involves n sets and is a subset of their Cartesian product
+
+How is a relation represented using a matrix?
+Rows represent elements of the first set, columns represent elements of the second set, and 1 indicates a relation
+Rows and columns are ignored
+Only ones are stored in the matrix
+Only edges are represented
+Rows represent elements of the first set, columns represent elements of the second set, and 1 indicates a relation
+
+What is a digraph in relation representation?
+A directed graph using vertices and arrows to show relations
+A function table
+A matrix of zeros only
+A list of numbers
+A directed graph using vertices and arrows to show relations
+
+What is the reflexive closure of a relation R?
+The smallest relation containing R that is reflexive
+The largest relation containing R
+The relation with no pairs
+The symmetric closure of R
+The smallest relation containing R that is reflexive
+
+What is the symmetric closure of a relation R?
+The smallest relation containing R that is symmetric
+The smallest relation containing R that is reflexive
+The largest transitive relation
+The empty relation
+The smallest relation containing R that is symmetric
+
+What is the transitive closure of a relation R?
+The smallest relation containing R that is transitive
+The relation with only loops
+The reflexive closure
+The symmetric closure
+The smallest relation containing R that is transitive
+
+What is an equivalence relation?
+A relation that is reflexive, symmetric, and transitive
+A relation that is reflexive only
+A relation that is transitive only
+A relation that is symmetric only
+A relation that is reflexive, symmetric, and transitive
+
+How do you determine whether a relation is an equivalence relation?
+Check if it is reflexive, symmetric, and transitive
+Check if it has only one element
+Check if all pairs are equal
+Check if it has no ordered pairs
+Check if it is reflexive, symmetric, and transitive
+
+How can you identify the transitive closure of a relation?
+Find all reachable pairs in the digraph or matrix representation
+Add only self-loops
+Check only the first element of each pair
+Reverse all pairs
+Find all reachable pairs in the digraph or matrix representation
+
+What is a graph in discrete mathematics?
+A set of vertices (nodes) and edges connecting them
+A list of numbers
+A matrix only
+A tree structure
+A set of vertices (nodes) and edges connecting them
+
+What does the notation G = (V, E) represent?
+A graph with vertices V and edges E
+A function mapping V to E
+A tree with nodes V and edges E
+A set of numbers
+A graph with vertices V and edges E
+
+Which of the following is true about a simple graph?
+No loops and no multiple edges between the same pair of vertices
+Allows multiple edges and loops
+Directed edges only
+Contains at least one loop
+No loops and no multiple edges between the same pair of vertices
+
+Which type of graph allows loops and multiple edges?
+Pseudograph
+Simple graph
+Multigraph
+Directed graph
+Pseudograph
+
+What is a directed graph (digraph)?
+A graph where edges have direction (u → v)
+A graph with no edges
+A graph with only loops
+A graph where vertices have no connections
+A graph where edges have direction (u → v)
+
+Which graph type allows multiple directed edges between the same pair of vertices?
+Directed multigraph
+Simple directed graph
+Simple graph
+Pseudograph
+Directed multigraph
+
+How can a graph be represented in a computer’s memory?
+Adjacency matrix and adjacency list
+Only as a tree
+Only as a list of vertices
+Only as a weighted table
+Adjacency matrix and adjacency list
+
+What is an adjacency matrix?
+A table where rows and columns represent vertices and entries show edges
+A list of edges only
+A weighted list of paths
+A tree structure
+A table where rows and columns represent vertices and entries show edges
+
+What is an adjacency list?
+A list where each vertex stores its adjacent vertices
+A table of zeros and ones
+A list of all possible paths
+A matrix of distances
+A list where each vertex stores its adjacent vertices
+
+Which shortest-path algorithm cannot handle negative edge weights?
+Dijkstra’s Algorithm
+Bellman-Ford Algorithm
+Floyd-Warshall Algorithm
+A* Algorithm
+Dijkstra’s Algorithm
+
+Which algorithm finds the shortest path from a start node to a target node using heuristics?
+A* Algorithm
+Dijkstra’s Algorithm
+Bellman-Ford Algorithm
+Floyd-Warshall Algorithm
+A* Algorithm
+
+Which algorithm can detect negative-weight cycles?
+Bellman-Ford Algorithm
+Dijkstra’s Algorithm
+A* Algorithm
+Floyd-Warshall Algorithm
+Bellman-Ford Algorithm
+
+Which algorithm finds the shortest paths between all pairs of vertices?
+Floyd-Warshall Algorithm
+Dijkstra’s Algorithm
+A* Algorithm
+Bellman-Ford Algorithm
+Floyd-Warshall Algorithm
+
+Which graph representation is more efficient for sparse graphs?
+Adjacency list
+Adjacency matrix
+Matrix of weights
+Edge list only
+Adjacency list
+
+Which algorithm uses a priority queue to select the closest unvisited vertex?
+Dijkstra’s Algorithm
+Bellman-Ford Algorithm
+Floyd-Warshall Algorithm
+A* Algorithm
+Dijkstra’s Algorithm
+
+Which of the following is true about multigraphs?
+They allow multiple edges between the same pair of vertices
+They allow only one edge per pair of vertices
+They are always directed
+They have no vertices
+They allow multiple edges between the same pair of vertices
+
+How is a mixed graph defined?
+Contains both directed and undirected edges
+Contains only undirected edges
+Contains only directed edges
+Contains no edges
+Contains both directed and undirected edges
+
+Which of these is a key limitation of Dijkstra’s algorithm?
+Cannot handle negative edge weights
+Cannot handle positive edge weights
+Cannot find single-source paths
+Cannot work on undirected graphs
+Cannot handle negative edge weights
+
+In A* algorithm, what does f(n) = g(n) + h(n) represent?
+Total estimated cost from start to goal through node n
+Only the cost from start to node n
+Only the heuristic to the goal
+Number of edges in the path
+Total estimated cost from start to goal through node n
+
+Which of the following best defines a tree in graph theory?
+A connected graph with no cycles
+A connected graph with cycles
+A disconnected graph with cycles
+Any graph with a root
+A connected graph with no cycles
+
+What is a forest in terms of graph theory?
+A collection of trees, possibly disconnected
+A single connected tree
+A graph with cycles
+A rooted tree
+A collection of trees, possibly disconnected
+
+What do we call a tree that has a designated root node?
+A tree with a designated root node
+A tree with only leaves
+A forest
+Any graph with no cycles
+A tree with a designated root node
+
+In a rooted tree, which term describes nodes sharing the same parent?
+Sibling nodes
+Ancestor nodes
+Descendant nodes
+Leaf nodes
+Sibling nodes
+
+Who is the mathematician associated with early tree applications in counting chemical compounds?
+Arthur Cayley
+Leonhard Euler
+Isaac Newton
+Euclid
+Arthur Cayley
+
+What property does a Binary Search Tree (BST) maintain?
+Left child < Parent < Right child
+Parent < Left child < Right child
+Right child < Parent < Left child
+All nodes have the same value
+Left child < Parent < Right child
+
+In a BST, which node is called the leaf node?
+A node with no children
+A node with exactly one child
+A node with two children
+The root node
+A node with no children
+
+Which node in a BST is called the inorder successor of a given node?
+The next node in an inorder traversal
+The leftmost leaf of the tree
+The root of the tree
+Any child node
+The next node in an inorder traversal
+
+Which traversal visits nodes in the order root → left → right?
+Preorder traversal
+Inorder traversal
+Postorder traversal
+Level-order traversal
+Preorder traversal
+
+Which spanning tree building method uses a stack (LIFO) approach?
+Depth-First Search (DFS)
+Breadth-First Search (BFS)
+Dijkstra’s Algorithm
+Floyd-Warshall Algorithm
+Depth-First Search (DFS)
+
+Which spanning tree building method explores vertices level by level using a queue (FIFO)?
+Breadth-First Search (BFS)
+Depth-First Search (DFS)
+Bellman-Ford Algorithm
+Kruskal’s Algorithm
+Breadth-First Search (BFS)
+
+What is the minimum number of edges in a spanning tree for a graph with n vertices?
+n − 1
+n
+2n
+n + 1
+n − 1
+
+Which of the following statements is true about a spanning tree?
+Contains all vertices and has no cycles
+May leave some vertices unconnected
+Contains cycles
+Has more edges than the original graph
+Contains all vertices and has no cycles
+
+Given a BST with root 15, left child 10, right child 20, what is the inorder traversal sequence?
+10, 15, 20
+15, 10, 20
+10, 20, 15
+15, 20, 10
+10, 15, 20
+
+Given a BST with root 15, left child 10, right child 20, what is the preorder traversal sequence?
+15, 10, 20
+10, 15, 20
+10, 20, 15
+15, 20, 10
+15, 10, 20
