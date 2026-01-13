@@ -1,0 +1,748 @@
+Why do standard Binary Search Trees (BSTs) become inefficient when data is inserted in sorted order?
+Because the tree can become skewed like a linked list
+Because BSTs do not allow duplicate values
+Because nodes are stored randomly
+Because rotations are applied automatically
+Because the tree can become skewed like a linked list
+
+What is the main goal of using balanced trees like AVL trees?
+To keep the tree height logarithmic
+To eliminate the need for searching
+To allow unlimited duplicate keys
+To reduce memory usage to zero
+To keep the tree height logarithmic
+
+An AVL tree is named after which inventors?
+Adelson-Velsky and Landis
+Adelson Velski and Landies
+Adelson-Velski and Landis
+Anderson-Velsky and Landis
+Adelson-Velsky and Landis
+
+What rule defines whether a node in an AVL tree is balanced?
+The height difference between left and right subtrees must be at most 1
+The left subtree must always be taller than the right
+Every node must have exactly two children
+The balance factor must always be positive
+The height difference between left and right subtrees must be at most 1
+
+A node has a left subtree height of 5 and a right subtree height of 3. What is its balance factor and status?
+2 and it is not balanced
+-2 and it is balanced
+1 and it is balanced
+0 and it is perfectly balanced
+2 and it is not balanced
+
+If a node in an AVL tree has a balance factor of -1, what does this indicate?
+The node is right-heavy but still balanced
+The node is left-heavy and unbalanced
+The node is perfectly balanced
+The node requires an immediate double rotation
+The node is right-heavy but still balanced
+
+Which rotation is used to fix a Left-Left (LL) imbalance in an AVL tree?
+Right rotation
+Left rotation
+Left-Right rotation
+Right-Left rotation
+Right rotation
+
+You insert the values 10, 20, 30 into an empty AVL tree. What operation is performed to rebalance the tree?
+A left rotation is performed on node 10
+A right rotation is performed on node 30
+No rotation is needed
+A left-right rotation is performed on node 20
+A left rotation is performed on node 10
+
+A node has a balance factor of 2 and its left child has a balance factor of 1. Which AVL case is this?
+Left-Left (LL) case
+Left-Right (LR) case
+Right-Right (RR) case
+Right-Left (RL) case
+Left-Left (LL) case
+
+A node has a balance factor of 2 and its left child has a balance factor of -1. Which rotation is required?
+Left-Right rotation
+Right rotation
+Left rotation
+Right-Left rotation
+Left-Right rotation
+
+A node has a balance factor of -2 and its right child has a balance factor of -1. Which AVL case applies?
+Right-Right (RR) case
+Right-Left (RL) case
+Left-Left (LL) case
+Left-Right (LR) case
+Right-Right (RR) case
+
+A node has a balance factor of -2 and its right child has a balance factor of 1. What is the correct fix?
+Right-Left rotation
+Left rotation
+Right rotation
+Left-Right rotation
+Right-Left rotation
+
+After inserting a node, a subtree becomes left-heavy and its left child is right-heavy. What should be done?
+Perform a Left-Right rotation
+Perform a Right rotation
+Perform a Left rotation
+No rotation is required
+Perform a Left-Right rotation
+
+After inserting a node, a subtree becomes right-heavy and its right child is left-heavy. What rotation sequence is required?
+Perform a Right-Left rotation
+Perform a Left rotation
+Perform a Right rotation
+Perform a Left-Right rotation
+Perform a Right-Left rotation
+
+You insert the values 30, 20, 10 into an empty AVL tree. What happens?
+A right rotation is performed on node 30
+A left rotation is performed on node 10
+A left-right rotation is performed on node 20
+No rotation is needed
+A right rotation is performed on node 30
+
+You insert the values 30, 10, 20 into an empty AVL tree. What balancing operation occurs?
+A Left-Right rotation is performed
+A Right rotation is performed
+A Left rotation is performed
+A Right-Left rotation is performed
+A Left-Right rotation is performed
+
+You insert the values 10, 30, 20 into an empty AVL tree. Which rotation is applied?
+A Right-Left rotation is performed
+A Left rotation is performed
+A Right rotation is performed
+A Left-Right rotation is performed
+A Right-Left rotation is performed
+
+Why are AVL trees considered suitable for read-heavy applications?
+They guarantee fast search time in the worst case
+They eliminate the need for rotations
+They require no extra memory
+They allow faster insertions than all other trees
+They guarantee fast search time in the worst case
+
+What additional information must each node in an AVL tree store?
+Its height or balance factor
+A pointer to its parent only
+The total number of nodes in the tree
+The insertion order of the node
+Its height or balance factor
+
+A node has equal left and right subtree heights. What is its balance factor?
+0
+1
+-1
+2
+0
+
+What are the two strict properties that define a Heap?
+Heap property and Complete Binary Tree property
+Heap property and Full Binary Tree property
+Sorted order and balance property
+Binary Search Tree property and height property
+Heap property and Complete Binary Tree property
+
+What does it mean for a heap to be a Complete Binary Tree?
+All levels are filled except possibly the last, which is filled from left to right
+Every node has exactly two children
+The tree is always perfectly balanced
+All leaves must be at the same depth
+All levels are filled except possibly the last, which is filled from left to right
+
+In a Max-Heap, what can be said about the root node?
+It always contains the maximum element
+It always contains the minimum element
+It is always a leaf node
+It has no children
+It always contains the maximum element
+
+Which heap type is best suited for implementing a priority queue where the highest priority item must be accessed quickly?
+Max-Heap
+Min-Heap
+Binary Search Tree
+Sorted Array
+Max-Heap
+
+In a Min-Heap, which statement is true?
+The root always contains the minimum element
+The root always contains the maximum element
+The left child is always smaller than the right child
+The tree is completely sorted
+The root always contains the minimum element
+
+Which operation is performed after inserting a new element into a heap?
+Heapify-Up
+Heapify-Down
+Heap Sort
+Binary Search
+Heapify-Up
+
+During deletion in a heap, which process is used to restore the heap property?
+Heapify-Down
+Heapify-Up
+In-order traversal
+Merge operation
+Heapify-Down
+
+When deleting the root of a heap, what happens first?
+The last element replaces the root
+The smallest element replaces the root
+The heap is rebuilt from scratch
+The tree is converted into a BST
+The last element replaces the root
+
+Which child is chosen during Heapify-Down in a Max-Heap?
+The larger child
+The smaller child
+The left child only
+The right child only
+The larger child
+
+Which sequence correctly describes Heap Sort?
+Build a Max-Heap, swap root with last element, reduce heap size, heapify-down
+Sort the array, insert into heap, delete all elements
+Build a Min-Heap, swap children, repeat
+Insert elements one by one into a sorted list
+Build a Max-Heap, swap root with last element, reduce heap size, heapify-down
+
+Why is a heap considered a partially ordered structure?
+Only the parent-child relationship is ordered
+All nodes are sorted left to right
+Every level is sorted independently
+The tree follows BST rules
+Only the parent-child relationship is ordered
+
+Can a binary tree be a valid heap if it has a missing node in the middle of a level?
+No, because heaps must be complete binary trees
+Yes, as long as the heap property is satisfied
+Yes, if it is a Min-Heap
+Only if the missing node is on the right
+No, because heaps must be complete binary trees
+
+You insert the values 10, 20, 5 into an empty Max-Heap. What will be the root after all insertions?
+20
+10
+5
+15
+20
+
+You delete the root of a Max-Heap. What element is moved to the root before reheapifying?
+The last element in the heap
+The smallest element in the heap
+The second largest element
+A random leaf
+The last element in the heap
+
+Why does the disk access problem occur when using standard binary trees on disk?
+Because binary trees are tall and require many disk seeks
+Because binary trees cannot store large amounts of data
+Because disks cannot store tree structures
+Because RAM is slower than disks
+Because binary trees are tall and require many disk seeks
+
+How do B-Trees reduce the number of disk accesses compared to binary trees?
+By using short and wide nodes that store many keys per disk block
+By storing all data only in leaf nodes
+By eliminating the need for searching
+By keeping only one key per node
+By using short and wide nodes that store many keys per disk block
+
+What does the order m of a B-Tree represent?
+The maximum number of children a node can have
+The maximum height of the tree
+The minimum number of keys in the root
+The number of leaf nodes
+The maximum number of children a node can have
+
+In a B-Tree of order m, what is the maximum number of keys a node can contain?
+m - 1
+m
+m + 1
+2m
+m - 1
+
+What is a key structural property of all B-Trees regarding their leaves?
+All leaf nodes appear at the same level
+All leaf nodes are linked together
+All leaf nodes are stored on disk
+All leaf nodes contain the same number of keys
+All leaf nodes appear at the same level
+
+Within a single B-Tree node, how are keys organized?
+Keys are stored in sorted order
+Keys are stored in insertion order
+Keys are randomly arranged
+Keys are stored only in the root
+Keys are stored in sorted order
+
+In a B-Tree node, where are values that fall between keys k1 and k2 stored?
+In the subtree between k1 and k2
+In the leftmost subtree
+In the parent node
+In the root only
+In the subtree between k1 and k2
+
+A B-Tree node of order 5 contains the keys 10, 20, 30, and 40. What happens if key 25 is inserted?
+The node overflows and a split is triggered
+The key is ignored
+The tree becomes unbalanced
+The key is placed in a new leaf without changes
+The node overflows and a split is triggered
+
+When inserting into a B-Tree, where does insertion always begin?
+At a leaf node
+At the root only
+At a random internal node
+At the shallowest node
+At a leaf node
+
+What happens during a B-Tree split operation?
+The middle key is promoted to the parent
+The smallest key is deleted
+The root is always replaced
+The tree height decreases
+The middle key is promoted to the parent
+
+When does the height of a B-Tree increase?
+Only when the root splits
+Whenever a leaf node splits
+Whenever a merge occurs
+Whenever a key is deleted
+Only when the root splits
+
+What condition causes a B-Tree node to be considered underflowed?
+When it has fewer than the minimum required keys
+When it has more than the maximum keys
+When it becomes a leaf
+When it has exactly one key
+When it has fewer than the minimum required keys
+
+What is the purpose of borrowing during B-Tree deletion?
+To take a key from a sibling to fix underflow
+To remove extra keys from a node
+To rebalance the entire tree
+To split a full node
+To take a key from a sibling to fix underflow
+
+When is merging used during B-Tree deletion?
+When siblings do not have enough keys to borrow
+When the root is full
+When inserting into a leaf
+When the tree height increases
+When siblings do not have enough keys to borrow
+
+Why are B-Trees commonly used in databases and file systems?
+They minimize slow disk input/output operations
+They use less memory than arrays
+They eliminate the need for indexing
+They are faster than hash tables in RAM
+They minimize slow disk input/output operations
+
+Why can a B-Tree of small height store millions of items?
+Each node provides many branching paths, reducing height
+Each node stores only one key
+The tree allows duplicate keys
+The tree is stored entirely in RAM
+Each node provides many branching paths, reducing height
+
+What is a graph composed of?
+Vertices and edges
+Nodes and arrays
+Trees and leaves
+Roots and paths
+Vertices and edges
+
+What distinguishes a directed graph from an undirected graph?
+Edges have a direction
+Edges have weights
+Vertices are ordered
+Graphs must contain cycles
+Edges have a direction
+
+What does a weighted graph represent?
+Edges carry values such as cost or distance
+Vertices have priority values
+Edges are directional
+Graphs are always complete
+Edges carry values such as cost or distance
+
+What is a path in graph terminology?
+A sequence of vertices connected by edges
+A vertex with no edges
+A cycle with weights
+A disconnected graph
+A sequence of vertices connected by edges
+
+What defines a cycle in a graph?
+A path that starts and ends at the same vertex
+A graph with no edges
+A path with increasing weights
+A disconnected path
+A path that starts and ends at the same vertex
+
+What does an adjacency matrix store?
+Whether an edge exists between two vertices
+A list of neighbors for each vertex
+The shortest path between vertices
+Only the weighted edges
+Whether an edge exists between two vertices
+
+Why is an adjacency matrix best suited for dense graphs?
+It allows constant-time edge lookups
+It uses less memory
+It stores only existing edges
+It avoids storing zero values
+It allows constant-time edge lookups
+
+What is the main advantage of an adjacency list?
+It is memory-efficient for sparse graphs
+It allows constant-time edge lookups
+It guarantees sorted edges
+It works only for directed graphs
+It is memory-efficient for sparse graphs
+
+Which traversal explores a graph level by level?
+Breadth-First Search (BFS)
+Depth-First Search (DFS)
+Dijkstra’s Algorithm
+Prim’s Algorithm
+Breadth-First Search (BFS)
+
+What data structure does Breadth-First Search use?
+Queue
+Stack
+Priority Queue
+Array
+Queue
+
+Why is BFS guaranteed to find the shortest path in an unweighted graph?
+It explores neighbors level by level
+It uses recursion
+It prioritizes smaller edge weights
+It avoids cycles
+It explores neighbors level by level
+
+Which traversal explores as deep as possible before backtracking?
+Depth-First Search (DFS)
+Breadth-First Search (BFS)
+Prim’s Algorithm
+Kruskal’s Algorithm
+Depth-First Search (DFS)
+
+What data structure does Depth-First Search primarily use?
+Stack
+Queue
+Heap
+Linked List
+Stack
+
+In preorder traversal of a tree, what is the correct order?
+Root → Left → Right
+Left → Root → Right
+Left → Right → Root
+Right → Root → Left
+Root → Left → Right
+
+Which traversal visits the root between the left and right subtrees?
+Inorder traversal
+Preorder traversal
+Postorder traversal
+Level-order traversal
+Inorder traversal
+
+What is the primary goal of Dijkstra’s Algorithm?
+To find the shortest path from a source to all vertices
+To find a minimum spanning tree
+To detect cycles in a graph
+To traverse all nodes
+To find the shortest path from a source to all vertices
+
+Why does Dijkstra’s Algorithm fail with negative edge weights?
+It assumes a visited node has a final shortest distance
+It cannot handle weighted graphs
+It uses too much memory
+It cannot detect cycles
+It assumes a visited node has a final shortest distance
+
+What strategy does Dijkstra’s Algorithm use when choosing the next node?
+Greedy selection of the smallest known distance
+Random selection
+Depth-first exploration
+Edge-weight comparison only
+Greedy selection of the smallest known distance
+
+What problem does Prim’s Algorithm solve?
+Finding the Minimum Spanning Tree
+Finding shortest paths
+Detecting negative cycles
+Graph traversal
+Finding the Minimum Spanning Tree
+
+Why is Prim’s Algorithm best suited for dense graphs?
+It efficiently selects minimum edges using adjacency matrices
+It avoids sorting edges
+It uses recursion
+It works only on sparse graphs
+It efficiently selects minimum edges using adjacency matrices
+
+What is the key idea behind Kruskal’s Algorithm?
+Add the smallest edge that does not form a cycle
+Grow the tree from a single source
+Explore nodes level by level
+Relax edges repeatedly
+Add the smallest edge that does not form a cycle
+
+When does Kruskal’s Algorithm discard an edge?
+When adding it would create a cycle
+When it has the largest weight
+When it connects two new nodes
+When it connects to the root
+When adding it would create a cycle
+
+What is the main difference between Dijkstra’s and Prim’s algorithms?
+Dijkstra’s uses total distance from the source, Prim’s uses edge weight
+Dijkstra’s finds MSTs, Prim’s finds shortest paths
+Prim’s supports negative weights
+They are identical algorithms
+Dijkstra’s uses total distance from the source, Prim’s uses edge weight
+
+What is the main idea behind Linear (Sequential) Search?
+Check every element one by one until the target is found
+Divide the array into halves repeatedly
+Swap adjacent elements until sorted
+Select the smallest element first
+Check every element one by one until the target is found
+
+In which case does Linear Search perform at its best time complexity?
+When the target is the first element
+When the list is empty
+When the list is sorted
+When the target is not present
+When the target is the first element
+
+What is a required condition for Binary Search to work correctly?
+The array must be sorted
+The array must be small
+The array must be stored in a linked list
+The array must contain unique values
+The array must be sorted
+
+What approach does Binary Search use to reduce the search space?
+Divide and Conquer
+Greedy
+Dynamic Programming
+Backtracking
+Divide and Conquer
+
+What is the time complexity of Binary Search?
+O(log n)
+O(n)
+O(n log n)
+O(1)
+O(log n)
+
+During Binary Search, what happens if the target value is less than the middle element?
+The right half is discarded
+The left half is discarded
+The array is reshuffled
+The search stops
+The right half is discarded
+
+Which sorting algorithm works by repeatedly swapping adjacent elements?
+Bubble Sort
+Selection Sort
+Insertion Sort
+Merge Sort
+Bubble Sort
+
+Why is Bubble Sort considered inefficient?
+It performs many swaps and memory writes
+It requires recursion
+It uses extra memory
+It only works on sorted arrays
+It performs many swaps and memory writes
+
+Which simple sorting algorithm performs the fewest swaps?
+Selection Sort
+Bubble Sort
+Insertion Sort
+Quick Sort
+Selection Sort
+
+Which sorting algorithm builds a sorted portion by inserting elements into their correct position?
+Insertion Sort
+Selection Sort
+Bubble Sort
+Merge Sort
+Insertion Sort
+
+Which sorting algorithm uses a divide-and-conquer approach to split and merge arrays?
+Merge Sort
+Insertion Sort
+Bubble Sort
+Selection Sort
+Merge Sort
+
+What is the first step of Merge Sort?
+Recursively split the array into halves
+Choose a pivot
+Swap adjacent elements
+Find the smallest element
+Recursively split the array into halves
+
+Which sorting algorithm uses a pivot element?
+Quick Sort
+Merge Sort
+Bubble Sort
+Selection Sort
+Quick Sort
+
+What is the purpose of partitioning in Quick Sort?
+To place smaller elements on the left and larger elements on the right
+To merge two sorted arrays
+To eliminate recursion
+To reduce memory usage
+To place smaller elements on the left and larger elements on the right
+
+Why are simple sorting algorithms best suited for small datasets?
+They are intuitive but slow for large inputs
+They use no memory
+They guarantee O(log n) performance
+They automatically sort during insertion
+They are intuitive but slow for large inputs
+
+Which sorting algorithm is generally fastest on average for large datasets?
+Quick Sort
+Bubble Sort
+Selection Sort
+Insertion Sort
+Quick Sort
+
+Why are hash functions needed when working with real-world data?
+They convert keys into array indices
+They sort data automatically
+They eliminate collisions entirely
+They store data in order
+They convert keys into array indices
+
+What is the purpose of a hash function?
+To map a key to an index in a hash table
+To compare two keys alphabetically
+To encrypt data
+To eliminate the need for arrays
+To map a key to an index in a hash table
+
+Which hash function formula is commonly used in hash tables?
+Modulo function
+Factorial function
+Exponential function
+Binary search formula
+Modulo function
+
+In the modulo hash function, what does the table size represent?
+The total number of available slots
+The total number of keys
+The maximum key value
+The number of collisions allowed
+The total number of available slots
+
+Which property ensures that the same key always hashes to the same index?
+Deterministic
+Uniform distribution
+Fast computation
+Randomization
+Deterministic
+
+Why is uniform distribution an important property of a good hash function?
+It reduces clustering and collisions
+It makes keys sorted
+It increases table size
+It eliminates probing
+It reduces clustering and collisions
+
+Why must a hash function be fast?
+To calculate indices instantly
+To avoid collisions
+To store more data
+To guarantee sorted order
+To calculate indices instantly
+
+Why are collisions guaranteed to occur in a hash table?
+The number of possible keys is infinite
+The hash table automatically resizes
+Keys are stored in order
+Hash functions are random
+The number of possible keys is infinite
+
+What is a collision in hashing?
+When two different keys hash to the same index
+When a key cannot be stored
+When a hash function fails
+When data is sorted incorrectly
+When two different keys hash to the same index
+
+What is the main idea behind chaining?
+Each table index points to a linked list of keys
+Keys overwrite existing values
+Keys are rehashed automatically
+Keys are stored in sorted order
+Each table index points to a linked list of keys
+
+How does chaining resolve collisions?
+By storing multiple keys in a linked list at the same index
+By searching for the next empty slot
+By resizing the table
+By deleting old keys
+By storing multiple keys in a linked list at the same index
+
+What is open addressing?
+A collision resolution method that stores all keys directly in the table
+A method that uses linked lists
+A resizing technique
+A sorting algorithm
+A collision resolution method that stores all keys directly in the table
+
+What happens during linear probing?
+Consecutive slots are checked until an empty one is found
+The table is rehashed immediately
+A linked list is created
+Keys are discarded
+Consecutive slots are checked until an empty one is found
+
+What is a major disadvantage of linear probing?
+It can create clustering
+It uses too much memory
+It requires linked lists
+It cannot handle collisions
+It can create clustering
+
+Which probing methods reduce clustering better than linear probing?
+Quadratic probing and double hashing
+Binary probing and linear probing
+Sequential probing and recursion
+Chaining and resizing
+Quadratic probing and double hashing
+
+Which collision resolution method is safer when the amount of data is unknown?
+Chaining
+Open addressing
+Linear probing
+Double hashing
+Chaining
+
+Why is open addressing preferred when memory usage must be minimized?
+All data is stored directly in the table
+It uses linked lists
+It guarantees no collisions
+It stores data in sorted order
+All data is stored directly in the table
+
+What is sacrificed when using hashing?
+The ability to easily store data in sorted order
+Fast lookup time
+Memory efficiency
+Collision handling
+The ability to easily store data in sorted order
