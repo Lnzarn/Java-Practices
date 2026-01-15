@@ -1,0 +1,895 @@
+What is Project Management?
+A methodical approach to identifying the cause of an incident and managing the life cycle of all problems
+A technique for writing computer simulations only
+A budgeting system for organizations
+A method used only in software development
+A methodical approach to identifying the cause of an incident and managing the life cycle of all problems
+
+Who is a Project Manager (PM)?
+A person responsible only for budgeting
+An organized, passionate, and goal-oriented individual who understands projects and their strategic role
+A technician who performs simulation coding
+A stakeholder with no authority
+An organized, passionate, and goal-oriented individual who understands projects and their strategic role
+
+What project parameter is associated with schedules and Gantt charts?
+Cost
+Performance
+Time
+Quality
+Time
+
+What is a Gantt chart?
+A vertical list of project costs
+A horizontal bar chart showing task sequence and duration
+A chart that assigns responsibilities
+A report of project risks
+A horizontal bar chart showing task sequence and duration
+
+What does WBS stand for in project planning?
+Work Budget Schedule
+Work Breakdown Structure
+Work Balance System
+Work Bar Sequence
+Work Breakdown Structure
+
+Why is the project budget considered the most easily tracked parameter?
+Because it never changes
+Because it can be regularly monitored and measured
+Because it includes performance objectives
+Because it is created after project completion
+Because it can be regularly monitored and measured
+
+Which phase of the project life cycle involves identifying team members and creating WBS, LRC, and Gantt charts?
+Conceptual
+Planning
+Execution
+Completion
+Planning
+
+Why must a project meet performance objectives to be considered successful?
+Because it reduces cost
+Because it satisfies stakeholders only
+Because it achieves technical performance requirements
+Because it shortens the schedule
+Because it achieves technical performance requirements
+
+What is the main advantage of using a Linear Responsibility Chart (LRC)?
+It replaces the Gantt chart
+It facilitates communication and clarifies authority and responsibility
+It estimates project cost
+It eliminates stakeholders
+It facilitates communication and clarifies authority and responsibility
+
+What is the purpose of the controlling function of a project manager?
+To motivate the team
+To organize stakeholders
+To compare performance with standards and take corrective action
+To develop estimation formulas
+To compare performance with standards and take corrective action
+
+A student creates a schedule to ensure their thesis is completed before deadlines. Which project parameter is primarily involved?
+Cost
+Performance
+Time
+Authority
+Time
+
+During a simulation project, the team is defining the system, collecting input data, and validating the model. Which project life cycle phase is this?
+Conceptual
+Planning
+Execution
+Completion
+Execution
+
+A project manager has legal power to acquire organizational resources. What type of authority is this?
+De facto authority
+Functional authority
+De jure authority
+Informal authority
+De jure authority
+
+In a RACI matrix, who is ultimately answerable for the correct completion of a task?
+Responsible
+Consulted
+Informed
+Accountable
+Accountable
+
+An agile team assigns story points using values like 1, 2, 3, 5, and 8 to estimate task effort. What estimation method are they using?
+Three-point estimation
+Beta distribution
+Fibonacci Agile Estimation
+Triangular estimation
+Fibonacci Agile Estimation
+
+What are project stakeholders?
+Individuals or organizations with a vested interest in the project
+Only the project manager and analysts
+People who fund the project only
+External software developers
+Individuals or organizations with a vested interest in the project
+
+Who are considered internal stakeholders?
+Individuals not connected to the project team
+Individuals directly associated with the simulation project team
+Government agencies and competitors
+Customers only
+Individuals directly associated with the simulation project team
+
+Which project parameter refers to achieving technical objectives?
+Time
+Cost
+Performance
+Authority
+Performance
+
+What is de facto authority in project management?
+Legal power granted by the organization
+Authority based on formal job title
+Authority gained through respect for knowledge or skills
+Authority enforced by regulations
+Authority gained through respect for knowledge or skills
+
+What does LRC stand for?
+Linear Resource Chart
+Linear Responsibility Chart
+Logical Responsibility Control
+Leadership Responsibility Chart
+Linear Responsibility Chart
+
+What is the primary purpose of a RACI matrix?
+To track project cost
+To estimate project duration
+To assign roles and responsibilities
+To identify project risks
+To assign roles and responsibilities
+
+What does the letter “C” represent in RACI?
+Controller
+Consulted
+Contributor
+Coordinator
+Consulted
+
+What is the conceptual phase of the project life cycle mainly concerned with?
+Completing reports
+Initial decision to conduct the simulation study
+Executing technical activities
+Monitoring project budget
+Initial decision to conduct the simulation study
+
+What is project estimation?
+A fixed calculation of total cost
+A consistent process of estimating project value and constraints
+A method for compressing projects
+A way to eliminate risks
+A consistent process of estimating project value and constraints
+
+Why is the planning phase critical in the project life cycle?
+Because it eliminates execution risks
+Because it identifies tasks, responsibilities, and schedules
+Because it completes technical activities
+Because it finalizes project reports
+Because it identifies tasks, responsibilities, and schedules
+
+Why is motivating the project team an important PM function?
+Because it reduces project costs
+Because motivated teams increase the probability of project success
+Because it replaces planning
+Because it eliminates conflicts automatically
+Because motivated teams increase the probability of project success
+
+Why might the Linear Responsibility Chart reduce confusion in a project?
+Because it assigns budgets to tasks
+Because it clearly defines authority and responsibility
+Because it shortens project duration
+Because it replaces stakeholders
+Because it clearly defines authority and responsibility
+
+Why is the LRC considered a mechanical aid?
+Because it estimates costs mechanically
+Because it does not fully describe human interactions
+Because it removes leadership roles
+Because it automates decision-making
+Because it does not fully describe human interactions
+
+Why does the beta distribution formula give more weight to the most likely estimate?
+Because it ignores optimistic values
+Because it averages only two values
+Because it places the estimate closer to the most likely value
+Because it increases pessimistic risk
+Because it places the estimate closer to the most likely value
+
+Why is project compression done without respect to cost?
+Because cost is already fixed
+Because speed is prioritized over expenses
+Because it eliminates planning
+Because it reduces quality requirements
+Because speed is prioritized over expenses
+
+Why is performance defined early in the project?
+Because it determines the budget only
+Because it sets the technical objectives the project must achieve
+Because it limits stakeholder involvement
+Because it replaces scheduling
+Because it sets the technical objectives the project must achieve
+
+Why is the Gantt chart useful to project managers?
+Because it identifies stakeholders
+Because it shows task durations and relationships
+Because it assigns authority
+Because it estimates risk
+Because it shows task durations and relationships
+
+What is a discrete system?
+A system whose state changes continuously over time
+A system whose state changes at specific discrete points in time
+A system that never terminates
+A system without events
+A system whose state changes at specific discrete points in time
+
+What is a continuous system?
+A system that changes only at event occurrences
+A system that never ends
+A system whose components continuously change with respect to time
+A system with queue priorities
+A system whose components continuously change with respect to time
+
+What is a terminating simulation?
+A simulation that never reaches an end
+A simulation that starts and ends at defined states or times
+A simulation that only models queues
+A simulation with continuous variables only
+A simulation that starts and ends at defined states or times
+
+What does a nonterminating simulation represent?
+A simulation with no starting point
+A simulation that ends randomly
+A simulation that runs indefinitely without a defined ending state
+A simulation without input data
+A simulation that runs indefinitely without a defined ending state
+
+What is the purpose of a high-level flowchart?
+To calculate service times
+To graphically depict component and event interactions
+To assign responsibilities
+To estimate costs
+To graphically depict component and event interactions
+
+Which flowchart symbol represents a decision?
+Oval
+Rectangle
+Parallelogram
+Diamond
+Diamond
+
+What does a parallelogram symbol represent in a flowchart?
+Start or end process
+Decision logic
+Input or output process
+General-purpose process
+Input or output process
+
+What is a process in simulation modeling?
+A single unexpected happening
+A series of steps and decisions to complete work
+An entity leaving the system
+A type of queue
+A series of steps and decisions to complete work
+
+What is an event in a simulation?
+A repeated daily task
+An important happening related to previous happenings
+A system resource
+A batch of entities
+An important happening related to previous happenings
+
+Why are discrete systems modeled using events?
+Because their states change continuously
+Because state changes occur only at specific points in time
+Because they have infinite duration
+Because they do not require input data
+Because state changes occur only at specific points in time
+
+Why is a nonterminating simulation called a ready-state simulation?
+Because it never starts
+Because it ends immediately
+Because it operates without a defined ending condition
+Because it cannot be paused
+Because it operates without a defined ending condition
+
+Why are high-level flowcharts useful in simulation modeling?
+Because they replace detailed coding
+Because they show how components, events, and data interact
+Because they estimate project duration
+Because they reduce input data
+Because they show how components, events, and data interact
+
+Why are parallel queues used in some systems?
+Because they limit entity movement
+Because they support multiple server resources
+Because they eliminate waiting
+Because they force FIFO behavior
+Because they support multiple server resources
+
+Why does queue priority affect system behavior?
+Because it changes how long entities wait
+Because it removes entities from the system
+Because it eliminates service times
+Because it increases failure rates
+Because it changes how long entities wait
+
+Why is jockeying only associated with parallel queues?
+Because single queues do not allow movement
+Because entities can switch between multiple queues
+Because it involves service completion
+Because it requires FIFO rules
+Because entities can switch between multiple queues
+
+Why is it important to model queue entity behavior?
+Because it affects how entities enter and leave queues
+Because it replaces service times
+Because it determines flowchart symbols
+Because it eliminates bottlenecks
+Because it affects how entities enter and leave queues
+
+Why should accurate input data be collected for a simulation model?
+Because inaccurate data speeds up modeling
+Because it ensures valid and reliable simulation results
+Because it eliminates assumptions
+Because it reduces system resources
+Because it ensures valid and reliable simulation results
+
+A bank system changes customer status only when a customer arrives or finishes service. What type of system is this?
+Continuous system
+Discrete system
+Combined system
+Nonterminating system
+Discrete system
+
+A manufacturing machine’s temperature changes every second while operating. What type of system does this describe?
+Discrete system
+Terminating system
+Continuous system
+Queue-based system
+Continuous system
+
+A simulation starts at store opening time and ends when the store closes. What type of simulation is this?
+Nonterminating simulation
+Continuous simulation
+Terminating simulation
+Combined simulation
+Terminating simulation
+
+A customer enters a store but leaves after seeing a long line before joining it. What queue behavior is demonstrated?
+Reneging
+Jockeying
+Balking
+FIFO
+Balking
+
+A customer joins a line but leaves before being served due to impatience. What queue behavior is this?
+Balking
+Jockeying
+Reneging
+LIFO
+Reneging
+
+A supermarket uses one long line feeding multiple cashiers. What type of queue is this?
+Parallel queue
+Priority queue
+Single snake queue
+FIFO queue
+Single snake queue
+
+An entity switches from one checkout line to another because it is shorter. What behavior does this represent?
+Balking
+Reneging
+Jockeying
+Batching
+Jockeying
+
+What is input data collection?
+The process of generating random numbers
+The process of gathering relevant system data using appropriate sources and devices
+The analysis of simulation results
+The elimination of probabilistic data
+The process of gathering relevant system data using appropriate sources and devices
+
+What type of data does not vary in value and needs to be collected only once?
+Probabilistic data
+Continuous data
+Discrete data
+Deterministic data
+Deterministic data
+
+What type of data follows a probability distribution and does not occur with regularity?
+Deterministic data
+Discrete data
+Probabilistic data
+Constant data
+Probabilistic data
+
+Which classification describes data that can only take whole-number values?
+Continuous data
+Probabilistic data
+Discrete data
+Deterministic data
+Discrete data
+
+Which classification describes data that can take fractional values within a range?
+Discrete data
+Deterministic data
+Continuous data
+Bernoulli data
+Continuous data
+
+Which distribution is used to model events with only two possible outcomes?
+Uniform distribution
+Bernoulli distribution
+Normal distribution
+Exponential distribution
+Bernoulli distribution
+
+Which distribution assumes all values in a range are equally likely?
+Uniform distribution
+Normal distribution
+Gamma distribution
+Weibull distribution
+Uniform distribution
+
+Which distribution is commonly used to model interarrival times?
+Normal distribution
+Triangular distribution
+Exponential distribution
+Bernoulli distribution
+Exponential distribution
+
+What distribution only covers values between 0 and 1?
+Beta distribution
+Gamma distribution
+Normal distribution
+Weibull distribution
+Beta distribution
+
+Which goodness-of-fit technique relies on visual comparison?
+Chi-square test
+Kolmogorov-Smirnov test
+Graphic approach
+Square error method
+Graphic approach
+
+What is the chi-square test primarily based on?
+Comparing observed and expected frequencies
+Comparing means only
+Visual inspection
+Probability ranking
+Comparing observed and expected frequencies
+
+Which goodness-of-fit test is often used when sample size is extremely limited?
+Chi-square test
+Square error method
+Kolmogorov-Smirnov test
+Graphic approach
+Kolmogorov-Smirnov test
+
+Why is proper data representation important in simulation modeling?
+Because it reduces computation time
+Because it ensures the model accurately reflects real system behavior
+Because it eliminates the need for analysis
+Because it guarantees deterministic results
+Because it ensures the model accurately reflects real system behavior
+
+Why are probability distributions used to model input data?
+Because all data are deterministic
+Because real systems often involve randomness and uncertainty
+Because they eliminate data collection
+Because they simplify flowcharts
+Because real systems often involve randomness and uncertainty
+
+Why is collecting relative or interarrival time preferred over absolute clock time?
+Because it is easier to convert later
+Because it requires more calculations
+Because it is less labor-intensive and more suitable for simulation
+Because it eliminates randomness
+Because it is less labor-intensive and more suitable for simulation
+
+Why should very small time units be avoided when collecting data?
+Because they are inaccurate
+Because they increase system randomness
+Because they complicate calculations and interpretation
+Because they eliminate interarrival times
+Because they complicate calculations and interpretation
+
+Why is the chi-square test considered a commonly preferred goodness-of-fit method?
+Because it requires very little data
+Because it visually compares distributions
+Because it quantitatively compares observed and expected data
+Because it works only for continuous data
+Because it quantitatively compares observed and expected data
+
+Why is the Kolmogorov-Smirnov test not always recommended for discrete distributions?
+Because it requires large sample sizes
+Because it cannot be computed easily
+Because it has limited ability to fit discrete data accurately
+Because it only works for deterministic data
+Because it has limited ability to fit discrete data accurately
+
+Why is sufficient sample size necessary for goodness-of-fit testing?
+Because it eliminates randomness
+Because it guarantees a normal distribution
+Because it ensures statistical validity and reliable conclusions
+Because it reduces the need for assumptions
+Because it ensures statistical validity and reliable conclusions
+
+Why must data collectors remain unbiased during data collection?
+Because bias speeds up analysis
+Because bias improves accuracy
+Because bias can distort simulation results
+Because bias simplifies modeling
+Because bias can distort simulation results
+
+Why is the square error method useful in distribution selection?
+Because it eliminates poor distributions automatically
+Because it visually compares data
+Because it measures differences between observed and theoretical distributions
+Because it converts probabilistic data into deterministic data
+Because it measures differences between observed and theoretical distributions
+
+Why should data collection compromises be documented?
+Because they increase simulation speed
+Because they reduce reporting requirements
+Because they clarify assumptions and limitations of the model
+Because they eliminate data variability
+Because they clarify assumptions and limitations of the model
+
+A system records whether a machine is working or failed. Which distribution best models this situation?
+Uniform distribution
+Bernoulli distribution
+Normal distribution
+Gamma distribution
+Bernoulli distribution
+
+An analyst has very few data points and cannot apply the chi-square test properly. Which goodness-of-fit test is more appropriate?
+Graphic approach
+Square error method
+Kolmogorov-Smirnov test
+Uniform test
+Kolmogorov-Smirnov test
+
+A data collector records arrival times using clock time and later must convert them for simulation use. What data type should have been collected instead?
+Service time
+Absolute time
+Relative interarrival time
+Batch size
+Relative interarrival time
+
+What factor in simulation program selection refers to improvements in computing power and displays?
+Speed
+Graphic capabilities
+Software cost
+Version management
+Graphic capabilities
+
+What is meant by speed in simulation modeling?
+The rate at which graphics are displayed
+The balance between execution time and model accuracy
+The cost of running the software
+The number of entities processed
+The balance between execution time and model accuracy
+
+What is version management used for?
+Creating simulation animations
+Maintaining organized program files and backups
+Increasing simulation speed
+Reducing software cost
+Maintaining organized program files and backups
+
+What is programming commenting?
+Removing unnecessary code
+Adding explanations within the program code
+Using mnemonic naming
+Dividing the program into subroutines
+Adding explanations within the program code
+
+What is mnemonic naming convention?
+Using random variable names
+Using names that describe the nature and type of components
+Naming files based on dates
+Using numbers instead of words
+Using names that describe the nature and type of components
+
+What is spaghetti code?
+Code created using excessive “go to” statements
+Well-organized modular code
+Code with detailed comments
+Code written using simulation software
+Code created using excessive “go to” statements
+
+What is verification in simulation modeling?
+Ensuring the model represents reality
+Ensuring the model operates as intended
+Comparing two simulation results
+Collecting validation data
+Ensuring the model operates as intended
+
+What is animation mainly used for during verification?
+To increase execution speed
+To improve statistical validity
+To visualize model behavior and detect errors
+To reduce software cost
+To visualize model behavior and detect errors
+
+What is validation?
+Ensuring the model runs without errors
+Ensuring the model represents reality at a given confidence level
+Organizing simulation files
+Comparing programming languages
+Ensuring the model represents reality at a given confidence level
+
+What type of validation relies on expert judgment?
+Statistical validity
+Face validity
+Graphic validity
+Process validity
+Face validity
+
+What is statistical validity?
+A visual comparison of models
+A subjective validation approach
+A quantitative comparison between the model and the actual system
+A check for programming errors
+A quantitative comparison between the model and the actual system
+
+Why must a balance between speed and accuracy be maintained in simulation modeling?
+Because higher speed always improves accuracy
+Because real-time models require both responsiveness and precision
+Because accuracy eliminates the need for speed
+Because speed affects software cost only
+Because real-time models require both responsiveness and precision
+
+Why is version management important in simulation projects?
+Because simulations never change
+Because programs often evolve and require organized tracking
+Because it increases animation quality
+Because it eliminates debugging
+Because programs often evolve and require organized tracking
+
+Why is liberal commenting recommended in simulation programs?
+Because it improves execution speed
+Because it helps future developers understand the program
+Because it reduces file size
+Because it replaces documentation
+Because it helps future developers understand the program
+
+Why is the divide-and-conquer approach useful in simulation development?
+Because it eliminates validation
+Because smaller models are easier to debug and enhance
+Because it reduces the need for animation
+Because it increases spaghetti code
+Because smaller models are easier to debug and enhance
+
+Why is animation considered an effective verification tool?
+Because it provides statistical accuracy
+Because it visually exposes logic and flow errors
+Because it replaces validation
+Because it speeds up execution
+Because it visually exposes logic and flow errors
+
+Why should different entity pictures be used in animation?
+Because it reduces simulation time
+Because it helps distinguish entity types and behavior
+Because it improves output file size
+Because it eliminates the need for plots
+Because it helps distinguish entity types and behavior
+
+Why are output files useful in simulation modeling?
+Because they replace animation
+Because they provide a permanent record of simulation behavior
+Because they eliminate validation
+Because they simplify coding
+Because they provide a permanent record of simulation behavior
+
+Why might event output files be difficult to interpret?
+Because they lack timestamps
+Because they contain too little information
+Because they list events sequentially with extensive detail
+Because they only show final values
+Because they list events sequentially with extensive detail
+
+Why are assumptions unavoidable during validation?
+Because all systems are fully observable
+Because some systems or processes lack complete information
+Because assumptions improve accuracy
+Because assumptions eliminate oversights
+Because some systems or processes lack complete information
+
+Why should limitations be documented in a simulation project?
+Because they reduce the need for validation
+Because they clarify factors outside the practitioner’s control
+Because they improve execution speed
+Because they eliminate simplifications
+Because they clarify factors outside the practitioner’s control
+
+A developer breaks a large simulation into smaller submodels to simplify debugging. What approach is being used?
+Spaghetti coding
+Divide-and-conquer approach
+Face validation
+Statistical validation
+Divide-and-conquer approach
+
+A practitioner visually observes animated entities moving incorrectly through a system. What process is being performed?
+Validation
+Verification
+Version management
+Statistical analysis
+Verification
+
+A simulation model appears realistic to domain experts but has not yet been statistically tested. What type of validation has been applied?
+Statistical validity
+Face validity
+Graphic validity
+Process validation
+Face validity
+
+What are factors in experimental design?
+The number of simulation runs
+The different variables thought to influence system performance
+The levels of each resource
+The output results of the model
+The different variables thought to influence system performance
+
+What do levels represent in experimental design?
+The output of the system
+The number of each type of resource being examined
+The statistical sensitivity
+The number of experiments conducted
+The number of each type of resource being examined
+
+What is a one-factor experimental design?
+A design that studies multiple variables simultaneously
+A design that studies the effect of one variable on the system
+A design that reduces the number of levels to two
+A design used only for existing systems
+A design that studies the effect of one variable on the system
+
+What is a two-factor experimental design?
+A design that studies only one level
+A design where data is collected for all combinations of two factors
+A design with two simulation runs
+A design that uses only low and high levels
+A design where data is collected for all combinations of two factors
+
+What is a multifactor experimental design?
+A design that ignores variability
+A design that studies the effects of two or more factors
+A design limited to two levels
+A design for non-existing systems only
+A design that studies the effects of two or more factors
+
+What is a 2k experimental design?
+A design with k experiments
+A design that uses two factors only
+A design where each factor has two levels, high and low
+A design that eliminates interaction effects
+A design where each factor has two levels, high and low
+
+What type of design studies the effect of more than two factors?
+Simple factorial design
+Two-factor design
+Complex factorial design
+One-factor design
+Complex factorial design
+
+What type of system alternative exists when the real system is currently in operation?
+No existing system
+Simulated-only system
+Existing system
+Conceptual system
+Existing system
+
+What is an executive summary?
+A detailed technical appendix
+A condensed non-technical overview of the report
+A list of equations
+A copy of the presentation slides
+A condensed non-technical overview of the report
+
+What is the recommended length of an executive summary?
+More than ten pages
+Exactly five pages
+Two or three pages
+One paragraph only
+Two or three pages
+
+Why can factors and levels rapidly increase in experimental design?
+Because systems have limited resources
+Because many variables and resource quantities can affect performance
+Because levels are fixed
+Because only one factor is allowed
+Because many variables and resource quantities can affect performance
+
+Why is a one-factor experimental design considered efficient?
+Because it eliminates interaction effects
+Because results are easy to interpret and analyze
+Because it increases generalizability
+Because it reduces accuracy
+Because results are easy to interpret and analyze
+
+Why does adding factors in a multifactor design increase statistical sensitivity?
+Because it reduces variability in the analysis
+Because it eliminates the need for replication
+Because it reduces sample size
+Because it simplifies results
+Because it reduces variability in the analysis
+
+Why is modeling a non-existing system potentially more dangerous?
+Because no simulation tools are available
+Because less information is known about alternative models
+Because validation is unnecessary
+Because results are already known
+Because less information is known about alternative models
+
+Why should reports and presentations follow the same general format?
+Because it reduces preparation time
+Because it ensures consistency and clarity
+Because it shortens the report
+Because it eliminates equations
+Because it ensures consistency and clarity
+
+Why should executive summaries avoid excessive technical detail?
+Because technical details are unimportant
+Because many decision-makers lack technical backgrounds
+Because equations cannot be included
+Because they replace the full report
+Because many decision-makers lack technical backgrounds
+
+Why is it advantageous to include equations in a professionally prepared report?
+Because they increase page count
+Because they allow equations to be reused in presentations
+Because they eliminate assumptions
+Because they simplify validation
+Because they allow equations to be reused in presentations
+
+Why are screen captures useful in simulation reports?
+Because they reduce simulation time
+Because they visually explain system processes and results
+Because they replace equations
+Because they eliminate the need for animation
+Because they visually explain system processes and results
+
+Why must presentation detail be adjusted?
+Because all audiences are technical
+Because objectives, time, and audience technical level vary
+Because detail never affects understanding
+Because presentations are always short
+Because objectives, time, and audience technical level vary
+
+Why is electronic presentation often preferred?
+Because it eliminates preparation
+Because it allows easy last-minute corrections and updates
+Because it requires no equipment
+Because it prevents errors
+Because it allows easy last-minute corrections and updates
+
+A simulation study examines the effect of two resources simultaneously, each at low and high levels. What design is being used?
+One-factor design
+2k experimental design
+Multifactor design
+Simple random design
+2k experimental design
+
+A practitioner presents simulation results to executives with limited technical background. Which report section is most important?
+Model translation
+Verification results
+Executive summary
+Equation appendix
+Executive summary
+
+A presenter modifies slides minutes before the presentation due to updated results. Which presentation medium best supports this?
+Printed handouts
+Whiteboard
+Electronic presentation
+Poster presentation
+Electronic presentation
