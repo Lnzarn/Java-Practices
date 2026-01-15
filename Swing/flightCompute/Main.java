@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-class setupFrame extends JFrame implements ActionListener{
+class setupFrame extends JFrame implements ActionListener,ItemListener{
     
     JPanel mainPanel = new JPanel();
     JPanel contentPanel = new JPanel();
@@ -91,7 +91,8 @@ class setupFrame extends JFrame implements ActionListener{
         mainPanel.add(contentPanel, BorderLayout.CENTER);
         mainPanel.add(resultPanel, BorderLayout.SOUTH);
 
-
+        fromBox.setSelectedIndex(-1);
+        toBox.setSelectedIndex(-1);
         oneWay.addActionListener(this);
         returnTrip.addActionListener(this);
         domestic.addActionListener(this);
@@ -102,7 +103,8 @@ class setupFrame extends JFrame implements ActionListener{
         addFour.addActionListener(this);
         pwd.addActionListener(this);
         computeBtn.addActionListener(this);
-
+        fromBox.addItemListener(this);
+        toBox.addItemListener(this);
         this.add(mainPanel);
         this.setVisible(true);
     }
@@ -136,10 +138,19 @@ class setupFrame extends JFrame implements ActionListener{
         }
     }
 
+    @Override
+    public void itemStateChanged(ItemEvent e){
+        if(e.getSource() == fromBox){
+            destiField.setText((String) fromBox.getSelectedItem() + " to " + (String) toBox.getSelectedItem());
+            retField.setText((String) toBox.getSelectedItem() + " to " + (String) fromBox.getSelectedItem());
+        } else if(e.getSource()== toBox){
+            destiField.setText((String) fromBox.getSelectedItem() + " to " + (String) toBox.getSelectedItem());
+            retField.setText((String) toBox.getSelectedItem() + " to " + (String) fromBox.getSelectedItem());
+        }
+    }
     private void computeTotal(){
         totalCost = 0;
-        destiField.setText((String) fromBox.getSelectedItem() + " to " + (String) toBox.getSelectedItem());
-        retField.setText((String) toBox.getSelectedItem() + " to " + (String) fromBox.getSelectedItem());
+        
 
         if("Manila".equals((String) fromBox.getSelectedItem()) && "Cebu".equals((String) toBox.getSelectedItem())){
             totalCost += 1500;
