@@ -1,7 +1,9 @@
 import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
 import javax.swing.*;
 
-class frameSetup extends JFrame{
+class frameSetup extends JFrame implements ActionListener{
     
     JPanel mainPanel = new JPanel();
     JPanel centPanel = new JPanel();
@@ -30,9 +32,12 @@ class frameSetup extends JFrame{
     JButton add = new JButton("ADD");
     JButton reset = new JButton("RESET");
     JButton clear = new JButton("CLEAR");
+
+    int userNo = 1;
+    ArrayList<String> registrations = new ArrayList<>(); 
     public frameSetup(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.getContentPane().setPreferredSize(new Dimension(400, 500));
+        this.getContentPane().setPreferredSize(new Dimension(750, 500));
         this.pack();
         this.setResizable(false);
 
@@ -72,16 +77,84 @@ class frameSetup extends JFrame{
         group.add(btnOne);
         group.add(btnTwo);
 
-        result.setPreferredSize(new Dimension(80,70));
+        courses.setSelectedIndex(-1);
+        result.setPreferredSize(new Dimension(50,120));
+        JScrollPane resultScroll = new JScrollPane(result);
 
-        botPanel.add(result, BorderLayout.CENTER);
+        botPanel.add(resultScroll, BorderLayout.CENTER);
         botPanel.add(btnPanel, BorderLayout.SOUTH);
 
         btnPanel.add(add);
         btnPanel.add(reset);
         btnPanel.add(clear);
+
+        add.addActionListener(this);
+        clear.addActionListener(this);
+        reset.addActionListener(this);
         this.add(mainPanel);
         this.setVisible(true);
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e){
+        if (e.getSource() == add){
+            if(validateInputs()){
+                String userDetail = getDetails();
+                userNo++;
+                result.append(userDetail+"\n");
+            }
+        } else if(e.getSource()== clear){
+            result.setText("");
+        } else if(e.getSource()== reset){
+            nameField.setText("");
+            mobField.setText("");
+            birthField.setText("");
+            emailField.setText("");
+            emailConField.setText("");
+            passField.setText("");
+            passConField.setText("");
+            courses.setSelectedIndex(-1);
+            group.clearSelection();
+        }
+    }
+
+    public Boolean validateInputs(){
+        if (nameField.getText().isEmpty() || mobField.getText().isEmpty() || birthField.getText().isEmpty() || 
+        emailField.getText().isEmpty() || new String(passField.getPassword()).isEmpty()||!(btnOne.isSelected() || 
+        btnTwo.isSelected())||(courses.getSelectedItem() == null)){
+                JOptionPane.showMessageDialog(null, "Missing Details. Please fill the form up!", "Error", JOptionPane.ERROR_MESSAGE);
+                return false;
+        } 
+        if(!birthField.getText().trim().matches("(0[1-9]|1[0-2])/(0[1-9]|[12][0-9]|3[01])/\\d{4}")){
+            JOptionPane.showMessageDialog(null, "For your birthday, please follow MM/DD/YYYY using numbers only.", "Error", JOptionPane.ERROR_MESSAGE);
+            return false;
+        } else if (!mobField.getText().trim().matches("\\d{11}")){
+            JOptionPane.showMessageDialog(null, "Only 11 digits Mobile Number.", "Error", JOptionPane.ERROR_MESSAGE);
+            return false;   
+        }  else if (!(emailField.getText().trim().contains("@gmail.com")||emailField.getText().trim().contains("@yahoo.com"))){
+            JOptionPane.showMessageDialog(null, "Please enter a valid email! (gmail.com/yahoo.com)", "Error", JOptionPane.ERROR_MESSAGE);
+            return false;   
+        }   
+
+        if(!new String(passField.getPassword()).equals(new String(passConField.getPassword()))){
+            JOptionPane.showMessageDialog(null, "Password Doesn't Match!", "Error", JOptionPane.ERROR_MESSAGE);
+            return false; 
+        } else if (!emailField.getText().trim().equals(emailConField.getText().trim())){
+            JOptionPane.showMessageDialog(null, "Email Doesn't Match!", "Error", JOptionPane.ERROR_MESSAGE);
+            return false; 
+        }
+
+        return true;
+    }
+    public String getDetails(){
+        String name = nameField.getText().trim();
+        String bday = birthField.getText().trim();
+        String number = mobField.getText().trim();
+        String email = emailField.getText().trim();
+        String password = new String(passField.getPassword()).trim();
+        String course = (String) courses.getSelectedItem();
+        String sem = (btnOne.isSelected() ? "1ST SEM" : "2ND SEM");
+        return String.valueOf(userNo)+". Name: "+name+" Birthday: "+bday+" Password: "+password+" Course: "+course+" SEMESTER: "+sem+" " +number+" "+email;
     }
 }
 public class Main {
