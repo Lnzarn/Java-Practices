@@ -1012,3 +1012,248 @@ It deletes the IP address
 It removes the packet header
 It encrypts the packet
 It re-encapsulates the packet with new MAC addresses
+
+What port is commonly used for HTTP web traffic?
+80
+443
+21
+22
+80
+
+Which protocol commonly uses port 80?
+HTTP
+HTTPS
+FTP
+DNS
+HTTP
+
+What port is used for secure web browsing via HTTPS?
+443
+80
+25
+22
+443
+
+Which protocol encrypts web traffic and commonly uses port 443?
+HTTPS
+HTTP
+FTP
+Telnet
+HTTPS
+
+A user opens a secure website with "https://" in the URL. Which port is most likely used?
+443
+80
+53
+21
+443
+
+Which port is commonly used for FTP control connections?
+21
+20
+22
+25
+21
+
+Which port is commonly used for FTP data transfer?
+20
+21
+22
+25
+20
+
+Which protocol uses both port 20 and port 21?
+FTP
+HTTP
+DNS
+Telnet
+FTP
+
+What port is commonly used for sending email using SMTP?
+25
+110
+143
+53
+25
+
+Which protocol typically uses port 25?
+SMTP
+POP3
+HTTP
+DNS
+SMTP
+
+Which port is commonly used for DNS queries?
+53
+67
+68
+69
+53
+
+Which protocol translates domain names into IP addresses and uses port 53?
+DNS
+HTTP
+FTP
+SMTP
+DNS
+
+When your computer looks up the IP address of google.com, which port is most likely used?
+53
+80
+443
+21
+53
+
+Which port is commonly used for Secure Shell remote access?
+22
+23
+21
+25
+22
+
+Which protocol provides secure remote login and commonly uses port 22?
+SSH
+Telnet
+FTP
+HTTP
+SSH
+
+Which port is commonly used for Telnet remote access?
+23
+22
+21
+80
+23
+
+Which protocol allows remote login but is insecure because it does not encrypt traffic?
+Telnet
+SSH
+HTTPS
+FTP
+Telnet
+
+Which port is commonly used by DHCP servers to send IP address assignments?
+67
+68
+69
+53
+67
+
+Which port is used by DHCP clients to receive IP configuration information?
+68
+67
+69
+22
+68
+
+Which protocol dynamically assigns IP addresses to devices in a network?
+DHCP
+DNS
+HTTP
+SMTP
+DHCP
+
+Which port is used by TFTP (Trivial File Transfer Protocol)?
+69
+21
+20
+23
+69
+
+Which protocol is a simplified version of FTP and commonly uses port 69?
+TFTP
+FTP
+HTTP
+SMTP
+TFTP
+
+Which port is used by POP3 to retrieve email from a mail server?
+110
+25
+143
+53
+110
+
+Which protocol downloads emails from a server and commonly uses port 110?
+POP3
+SMTP
+HTTP
+FTP
+POP3
+
+A user sends an email through a mail server. Which port is most likely used?
+25
+110
+53
+80
+25
+
+A user downloads email from their mailbox using POP3. Which port is used?
+110
+25
+21
+80
+110
+
+A system administrator securely connects to a remote Linux server. Which port is used?
+22
+23
+21
+25
+22
+
+A technician logs into a device using an insecure remote terminal connection. Which port is likely used?
+23
+22
+21
+80
+23
+
+A computer is requesting an IP address from a DHCP server. Which client port is used?
+68
+67
+53
+21
+68
+
+Which server port listens for DHCP requests?
+67
+68
+69
+53
+67
+
+Which protocol allows file transfers but is not encrypted by default?
+FTP
+HTTPS
+SSH
+DNS
+FTP
+
+Which port would most likely be used when a browser accesses a normal non-secure website?
+80
+443
+22
+21
+80
+
+Which port would most likely be used when accessing a secure online banking website?
+443
+80
+21
+53
+443
+
+Which port is associated with name resolution services?
+53
+80
+25
+23
+53
+
+Which port is used for a lightweight file transfer protocol often used in device configuration?
+69
+21
+22
+25
+69
