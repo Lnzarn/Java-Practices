@@ -51,7 +51,7 @@ public class TerminalQuiz {
         System.out.println("╔════════════════════════════════════╗");
         System.out.println("║  1. DSA                            ║");
         System.out.println("║  2. DS2                            ║");
-        System.out.println("║  3. MODSIM                         ║");
+        System.out.println("║  3. DCN                            ║");
         System.out.println("║  4. Cancel                         ║");
         System.out.println("╚════════════════════════════════════╝");
         System.out.print("\nEnter your choice: ");
@@ -64,7 +64,7 @@ public class TerminalQuiz {
             case "2":
                 return "DS2";
             case "3":
-                return "MODSIM";
+                return "DCN";
             case "4":
                 return null;
             default:

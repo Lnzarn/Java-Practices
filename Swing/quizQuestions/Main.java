@@ -233,7 +233,7 @@ class quizQuestions extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == nextQuestionBtn){
             if (questionsArr.length == 0 && q == 0) {
-                String[] subjects = {"DSA", "DS2", "MODSIM"};
+                String[] subjects = {"DCN", "DS2"};
                 String selectedSubject = (String) JOptionPane.showInputDialog(
                     this,
                     "Select a subject for the quiz:",

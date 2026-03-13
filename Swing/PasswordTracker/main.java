@@ -102,8 +102,7 @@ class frameSetup extends JFrame implements ActionListener {
         header_c.setBackground(new Color(217, 217, 217));
         header_c.setLayout(new BorderLayout());
         header_c.add(titleHeader, BorderLayout.CENTER);
-
-        // Update time with actual current time
+        
         updateTime();
         javax.swing.Timer timer = new javax.swing.Timer(1000, e -> updateTime());
         timer.start();
@@ -152,7 +151,7 @@ class frameSetup extends JFrame implements ActionListener {
         midPanel.setLayout(new BoxLayout(midPanel, BoxLayout.Y_AXIS));
         midPanel.setBackground(new Color(255, 255, 255));
         
-        // Add scroll pane for entries
+    
         scrollPane = new JScrollPane(midPanel);
         scrollPane.setPreferredSize(new Dimension(576, 370));
         scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);

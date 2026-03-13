@@ -1,0 +1,1259 @@
+What concept refers to the connection of people, processes, data, and things to create new economic and social opportunities?
+Internet of Everything (IoE)
+Local Area Network
+Peer-to-Peer Network
+Metropolitan Area Network
+Internet of Everything (IoE)
+
+Which of the following is NOT one of the four major areas where networks impact daily life?
+Learning
+Communicating
+Working
+Manufacturing
+Manufacturing
+
+Which of the following is an example of how networks support learning?
+Virtual classrooms and on-demand video
+Typewritten assignments
+Printed encyclopedias
+Physical chalkboards
+Virtual classrooms and on-demand video
+
+Which technology allows multiple users to work on the same document in real time across different locations?
+Collaboration tools
+Dial-up networking
+Circuit switching
+Packet loss monitoring
+Collaboration tools
+
+What type of communication allows individuals to exchange messages instantly in real time?
+Instant messaging (IM)
+Podcasting
+Broadcast transmission
+Packet segmentation
+Instant messaging (IM)
+
+Which platform allows users to easily edit web pages and share knowledge collaboratively?
+Blogs
+Wikis
+File servers
+VPN tunnels
+Wikis
+
+What form of media distribution involves delivering audio recordings to a broad audience over the internet?
+Podcasting
+Streaming
+VoIP
+Peer networking
+Podcasting
+
+Which networking method allows users to share files directly without using a centralized server?
+Peer-to-peer (P2P) file sharing
+Client-server networking
+Centralized cloud storage
+Dedicated server distribution
+Peer-to-peer (P2P) file sharing
+
+Which network type typically connects only a few computers within a home and provides internet access?
+Small Home Network
+WAN
+MAN
+SAN
+Small Home Network
+
+Which type of network connects a home or small office to a corporate network?
+SOHO
+LAN
+MAN
+SAN
+SOHO
+
+Which network can connect hundreds or thousands of computers across multiple locations?
+Medium to Large Networks
+Small Home Network
+Personal Area Network
+Bluetooth Network
+Medium to Large Networks
+
+What term refers to a device connected to a network that can send or receive data?
+Host
+Frame
+Packet
+Segment
+Host
+
+Which device type provides services such as web hosting, email, or file storage?
+Server
+Client
+Switch
+Router
+Server
+
+Which device type requests services from a server?
+Client
+Router
+Firewall
+Access point
+Client
+
+In which network architecture can a device function as both a client and a server?
+Peer-to-Peer (P2P)
+Client-Server
+Centralized
+Hierarchical
+Peer-to-Peer (P2P)
+
+What is one advantage of peer-to-peer networks?
+Easy to set up
+Highly secure
+Unlimited scalability
+Centralized management
+Easy to set up
+
+What is a major disadvantage of peer-to-peer networks?
+No centralized administration
+Extremely expensive
+Requires specialized hardware
+Cannot share files
+No centralized administration
+
+Which category includes switches, routers, and firewalls?
+Intermediary devices
+End devices
+Storage devices
+Application devices
+Intermediary devices
+
+Which category includes copper cables, fiber optics, and wireless signals?
+Media
+Devices
+Services
+Protocols
+Media
+
+What category includes applications and processes running on network devices?
+Services
+Media
+Protocols
+Frames
+Services
+
+Which network type is typically limited to a home, office, or campus environment?
+LAN
+WAN
+MAN
+SAN
+LAN
+
+Which network spans large geographic areas such as cities or countries?
+WAN
+LAN
+PAN
+SAN
+WAN
+
+Which type of network covers a city-sized geographic area?
+MAN
+LAN
+SAN
+WLAN
+MAN
+
+Which type of network connects devices wirelessly within a local area?
+WLAN
+SAN
+MAN
+PAN
+WLAN
+
+Which network type is specifically designed for data storage and retrieval?
+SAN
+LAN
+MAN
+WLAN
+SAN
+
+What is the global collection of interconnected networks called?
+Internet
+Intranet
+Extranet
+SAN
+Internet
+
+What type of network is private and accessible only within an organization?
+Intranet
+Internet
+Extranet
+WAN
+Intranet
+
+What type of network allows limited external access to specific partners or vendors?
+Extranet
+Intranet
+LAN
+PAN
+Extranet
+
+Which organization develops and maintains Internet technologies and TCP/IP standards?
+IETF
+IEEE
+ITU-T
+EIA
+IETF
+
+Which organization manages IP address allocation and domain names?
+ICANN / IANA
+IETF
+IEEE
+ISOC
+ICANN / IANA
+
+What type of network infrastructure combines voice, video, and data on a single network?
+Converged network
+Segmented network
+Analog network
+Hierarchical network
+Converged network
+
+Which architecture characteristic ensures the network continues functioning even when failures occur?
+Fault tolerance
+Security
+Scalability
+QoS
+Fault tolerance
+
+Which architecture characteristic allows networks to grow without degrading existing performance?
+Scalability
+QoS
+Security
+Packet switching
+Scalability
+
+Which architecture characteristic prioritizes certain traffic types like voice or video?
+Quality of Service (QoS)
+Fault tolerance
+Scalability
+Security
+Quality of Service (QoS)
+
+Which architecture characteristic protects data and infrastructure?
+Security
+QoS
+Fault tolerance
+Scalability
+Security
+
+What three principles define the CIA security triad?
+Confidentiality, Integrity, Availability
+Control, Integrity, Access
+Confidentiality, Identity, Access
+Control, Inspection, Authentication
+Confidentiality, Integrity, Availability
+
+What networking trend allows employees to connect their personal devices to corporate networks?
+BYOD
+QoS
+VPN
+LAN segmentation
+BYOD
+
+Which technology enables face-to-face remote meetings through advanced video systems?
+TelePresence
+VoIP
+Packet switching
+DNS
+TelePresence
+
+What is cloud computing?
+Delivery of computing resources over the Internet
+Local computer storage
+Offline computing systems
+Physical server clusters only
+Delivery of computing resources over the Internet
+
+Which cloud type provides services to the general public over the Internet?
+Public cloud
+Private cloud
+Community cloud
+Hybrid cloud
+Public cloud
+
+Which cloud type is dedicated to a single organization?
+Private cloud
+Public cloud
+Hybrid cloud
+Open cloud
+Private cloud
+
+Which cloud type combines two or more different cloud environments?
+Hybrid cloud
+Public cloud
+Community cloud
+Private cloud
+Hybrid cloud
+
+Which cloud type is shared by organizations with similar requirements?
+Community cloud
+Public cloud
+Hybrid cloud
+Private cloud
+Community cloud
+
+Which of the following is an example of an external security threat?
+Virus
+Employee mistake
+Configuration error
+Poor training
+Virus
+
+Which security technology monitors and blocks malicious network activity?
+Intrusion Prevention System (IPS)
+Ethernet
+MAC address
+Flow control
+Intrusion Prevention System (IPS)
+
+Which security technology creates a secure encrypted connection over the internet?
+VPN
+SAN
+DNS
+HTTP
+VPN
+
+What are the three basic elements required for communication?
+Source, destination, channel
+Sender, frame, packet
+Source, router, cable
+Host, protocol, packet
+Source, destination, channel
+
+What converts digital data into signals suitable for transmission over the network?
+Message encoding
+Flow control
+Encapsulation
+Segmentation
+Message encoding
+
+What is the process of wrapping data with protocol information called?
+Encapsulation
+Segmentation
+Encoding
+Broadcasting
+Encapsulation
+
+Why are long messages broken into smaller frames?
+To allow efficient transmission and reassembly
+To encrypt messages
+To increase file size
+To reduce addressing information
+To allow efficient transmission and reassembly
+
+What rule defines when devices are allowed to send data on the network?
+Access method
+Encapsulation
+Flow control
+Encoding
+Access method
+
+What prevents a sender from overwhelming a receiver with too much data?
+Flow control
+Packet routing
+Access method
+Segmentation
+Flow control
+
+Which delivery method sends a message to a single specific receiver?
+Unicast
+Multicast
+Broadcast
+Anycast
+Unicast
+
+Which delivery method sends a message to multiple selected hosts?
+Multicast
+Broadcast
+Unicast
+Segmented delivery
+Multicast
+
+Which delivery method sends a message to all devices on the network?
+Broadcast
+Multicast
+Unicast
+Directcast
+Broadcast
+
+Which protocol controls web communication between browsers and web servers?
+HTTP
+TCP
+IP
+Ethernet
+HTTP
+
+Which protocol ensures reliable delivery and manages conversations between devices?
+TCP
+IP
+HTTP
+Ethernet
+TCP
+
+Which protocol handles logical addressing and packet routing?
+IP
+TCP
+HTTP
+FTP
+IP
+
+Which protocol manages data transmission on a local network medium?
+Ethernet
+IP
+HTTP
+TCP
+Ethernet
+
+From which research network did TCP/IP originate?
+ARPANET
+EthernetNet
+WorldNet
+CloudNet
+ARPANET
+
+Which layer of the TCP/IP or OSI model prepares data for transmission from applications?
+Application layer
+Transport layer
+Network layer
+Physical layer
+Application layer
+
+Which layer divides data into segments for transmission?
+Transport layer
+Network layer
+Physical layer
+Session layer
+Transport layer
+
+Which layer adds logical addressing information?
+Network layer
+Data link layer
+Physical layer
+Application layer
+Network layer
+
+Which layer adds Ethernet information to create frames?
+Data Link layer
+Transport layer
+Network layer
+Physical layer
+Data Link layer
+
+Which OSI layer is responsible for transmitting bits over physical media?
+Physical layer
+Network layer
+Transport layer
+Session layer
+Physical layer
+
+Which OSI layer handles routing between different networks?
+Network layer
+Transport layer
+Session layer
+Data link layer
+Network layer
+
+Which OSI layer manages segmentation and reassembly of data?
+Transport layer
+Session layer
+Presentation layer
+Application layer
+Transport layer
+
+Which OSI layer manages communication sessions between devices?
+Session layer
+Transport layer
+Network layer
+Application layer
+Session layer
+
+Which OSI layer is responsible for data formatting and representation?
+Presentation layer
+Session layer
+Transport layer
+Network layer
+Presentation layer
+
+Which OSI layer provides network services directly to applications?
+Application layer
+Presentation layer
+Session layer
+Transport layer
+Application layer
+
+What is the process of breaking large data streams into smaller pieces?
+Message segmentation
+Message encoding
+Encapsulation
+Broadcasting
+Message segmentation
+
+What advantage allows multiple communications to share a network through segmentation?
+Multiplexing
+Broadcasting
+Unicasting
+Encryption
+Multiplexing
+
+What is the PDU name at the Transport layer?
+Segment
+Packet
+Frame
+Bits
+Segment
+
+What is the PDU name at the Network layer?
+Packet
+Frame
+Segment
+Data
+Packet
+
+What is the PDU name at the Data Link layer?
+Frame
+Packet
+Segment
+Bits
+Frame
+
+What is the PDU name at the Physical layer?
+Bits
+Frames
+Packets
+Segments
+Bits
+
+Which type of address identifies the original source and final destination across networks?
+IP address
+MAC address
+Port address
+Frame address
+IP address
+
+Which type of address is used for hop-to-hop communication within the same network?
+MAC address
+IP address
+Port address
+Application address
+MAC address
+
+When a packet passes through a router, what happens to the MAC address?
+It changes at every hop
+It remains constant
+It is removed permanently
+It becomes encrypted
+It changes at every hop
+
+Which of the following best describes the Internet of Everything (IoE)?
+The connection of people, processes, data, and things
+A network of only computers
+A wireless connection between phones
+A storage network used by companies
+The connection of people, processes, data, and things
+
+Which type of network might connect employees working from home to the company's main network?
+SOHO network
+SAN network
+MAN network
+Personal network
+SOHO network
+
+Which type of network connects millions of computers worldwide?
+World Wide Network
+LAN
+SAN
+PAN
+World Wide Network
+
+What is another term for an end device in a network?
+Host
+Packet
+Router
+Segment
+Host
+
+Which example represents an end device?
+Laptop computer
+Router
+Switch
+Firewall
+Laptop computer
+
+Which device type directs data between networks?
+Router
+Printer
+Laptop
+Server monitor
+Router
+
+Which of the following best describes the role of a server?
+Provides resources or services to other devices
+Only receives data
+Acts only as a router
+Converts analog signals
+Provides resources or services to other devices
+
+Which situation best describes a peer-to-peer network?
+Two computers sharing files directly
+A client requesting data from a web server
+A router forwarding packets
+A server hosting multiple clients
+Two computers sharing files directly
+
+Why are peer-to-peer networks considered less secure?
+They lack centralized administration
+They use stronger encryption
+They require authentication servers
+They restrict file access
+They lack centralized administration
+
+Which component of a network carries the data signals?
+Media
+Services
+Devices
+Applications
+Media
+
+Which example represents a network medium?
+Fiber optic cable
+Router
+Switch
+Operating system
+Fiber optic cable
+
+Which example represents a network service?
+Email application
+Ethernet cable
+Router
+Network card
+Email application
+
+Which network type usually provides the highest speeds and lowest latency?
+LAN
+WAN
+MAN
+Satellite network
+LAN
+
+Which network type is most likely managed by an Internet Service Provider?
+WAN
+LAN
+SAN
+PAN
+WAN
+
+Which network type is commonly implemented using Wi-Fi?
+WLAN
+MAN
+SAN
+PAN
+WLAN
+
+Which network type focuses on high-speed storage communication between servers?
+SAN
+LAN
+MAN
+PAN
+SAN
+
+What is the primary difference between an intranet and the internet?
+Intranet is private while the Internet is public
+Intranet is wireless
+Internet is only for companies
+Intranet requires routers
+Intranet is private while the Internet is public
+
+Which network allows business partners limited access to company resources?
+Extranet
+LAN
+Internet
+SAN
+Extranet
+
+Which Internet standards organization focuses on global Internet growth and development?
+ISOC
+IEEE
+ITU-T
+EIA
+ISOC
+
+Which organization is responsible for developing Ethernet standards?
+IEEE
+IETF
+ICANN
+ISOC
+IEEE
+
+Which organization creates standards for telecommunications such as IPTV?
+ITU-T
+IEEE
+ISOC
+IAB
+ITU-T
+
+Which architecture characteristic allows a network to continue operating even when one path fails?
+Fault tolerance
+QoS
+Encryption
+Authentication
+Fault tolerance
+
+What technology enables fault tolerance by sending packets through different routes?
+Packet switching
+Circuit switching
+Broadcast switching
+Token passing
+Packet switching
+
+Which scenario best demonstrates scalability?
+A network expanding to support thousands of new users
+A network blocking malware
+A network encrypting data
+A network prioritizing video
+A network expanding to support thousands of new users
+
+Which scenario demonstrates Quality of Service?
+Voice traffic prioritized over email traffic
+Firewall blocking external traffic
+Users logging in remotely
+Devices connecting wirelessly
+Voice traffic prioritized over email traffic
+
+Which goal of security ensures that information is not accessed by unauthorized users?
+Confidentiality
+Integrity
+Availability
+Authentication
+Confidentiality
+
+Which goal ensures data remains accurate and unmodified?
+Integrity
+Availability
+Encryption
+Redundancy
+Integrity
+
+Which goal ensures systems and data are accessible when needed?
+Availability
+Confidentiality
+Encryption
+Integrity
+Availability
+
+Which trend increases security risks because personal devices connect to corporate networks?
+BYOD
+QoS
+SAN
+LAN segmentation
+BYOD
+
+Which collaboration tool enables remote meetings and presentations online?
+Cisco WebEx
+DNS
+FTP
+SMTP
+Cisco WebEx
+
+Which technology enables immersive face-to-face communication between distant offices?
+TelePresence
+Token Ring
+SMTP
+Ethernet
+TelePresence
+
+What is a key advantage of cloud computing?
+Resources can be accessed on demand over the internet
+All data must remain local
+Networks are not required
+Hardware cannot be upgraded
+Resources can be accessed on demand over the internet
+
+Which cloud model might be used by government agencies for internal services?
+Private cloud
+Public cloud
+Hybrid cloud
+Community cloud
+Private cloud
+
+Which cloud model allows organizations to use both private and public cloud resources?
+Hybrid cloud
+Public cloud
+Private cloud
+Community cloud
+Hybrid cloud
+
+Which internal security threat involves employees unintentionally causing problems?
+Human error
+Virus attack
+Trojan infection
+DoS attack
+Human error
+
+Which attack overwhelms a server with traffic to make it unavailable?
+Denial-of-Service (DoS)
+Phishing
+Spyware
+Trojan
+Denial-of-Service (DoS)
+
+Which security device filters traffic between networks based on rules?
+Firewall
+Switch
+Repeater
+Bridge
+Firewall
+
+Which technology controls which users or devices can access network resources?
+Access Control Lists (ACLs)
+HTTP
+Ethernet
+ARP
+Access Control Lists (ACLs)
+
+Which process converts digital data into electrical, optical, or radio signals?
+Encoding
+Encapsulation
+Segmentation
+Multiplexing
+Encoding
+
+What happens during message encapsulation?
+Headers are added as data moves down the layers
+Messages are encrypted
+Packets are deleted
+Signals are amplified
+Headers are added as data moves down the layers
+
+Why does the network break large messages into smaller frames?
+To improve reliability and efficiency
+To increase bandwidth
+To encrypt data
+To reduce addressing
+To improve reliability and efficiency
+
+What rule determines how long a sender waits for a reply before retransmitting?
+Response timeout
+Flow control
+Access control
+Packet routing
+Response timeout
+
+Which delivery option is used when sending a message to every host on a network?
+Broadcast
+Multicast
+Unicast
+Peer delivery
+Broadcast
+
+Which protocol allows web browsers to retrieve web pages?
+HTTP
+IP
+Ethernet
+TCP
+HTTP
+
+Which protocol ensures that data is delivered reliably and in order?
+TCP
+IP
+DNS
+Ethernet
+TCP
+
+Which protocol determines logical addressing and packet routing?
+IP
+HTTP
+TCP
+FTP
+IP
+
+Which protocol is responsible for local network frame delivery?
+Ethernet
+IP
+TCP
+DNS
+Ethernet
+
+Which network model uses seven layers?
+OSI model
+TCP/IP model
+Internet model
+Packet model
+OSI model
+
+Which OSI layer manages user-level network services?
+Application layer
+Transport layer
+Session layer
+Network layer
+Application layer
+
+Which OSI layer establishes and maintains communication sessions?
+Session layer
+Transport layer
+Network layer
+Presentation layer
+Session layer
+
+Which OSI layer ensures data is formatted correctly for the receiving system?
+Presentation layer
+Transport layer
+Network layer
+Application layer
+Presentation layer
+
+Which OSI layer ensures data reaches the correct destination device across networks?
+Network layer
+Transport layer
+Session layer
+Physical layer
+Network layer
+
+Which OSI layer packages data into frames?
+Data Link layer
+Network layer
+Transport layer
+Physical layer
+Data Link layer
+
+Which OSI layer converts frames into electrical or optical signals?
+Physical layer
+Transport layer
+Network layer
+Session layer
+Physical layer
+
+Which benefit of a layered model allows different vendors to create compatible networking products?
+Interoperability
+Segmentation
+Encapsulation
+Broadcasting
+Interoperability
+
+Which benefit of layering prevents changes in one layer from affecting others?
+Layer independence
+Multiplexing
+Encryption
+Redundancy
+Layer independence
+
+Which TCP/IP layer corresponds to the OSI Network layer?
+Internet layer
+Transport layer
+Application layer
+Network Access layer
+Internet layer
+
+Which TCP/IP layer handles physical transmission and framing?
+Network Access layer
+Internet layer
+Transport layer
+Application layer
+Network Access layer
+
+Which process allows multiple conversations to share the same network simultaneously?
+Multiplexing
+Broadcasting
+Encryption
+Fragmentation
+Multiplexing
+
+Which PDU is used at the application layer?
+Data
+Segment
+Packet
+Frame
+Data
+
+Which PDU is used at the network layer?
+Packet
+Frame
+Segment
+Bits
+Packet
+
+Which PDU is used at the data link layer?
+Frame
+Packet
+Segment
+Bits
+Frame
+
+Which PDU is used at the physical layer?
+Bits
+Frames
+Segments
+Packets
+Bits
+
+Which addressing type identifies the final device across networks?
+IP address
+MAC address
+Port address
+Frame address
+IP address
+
+Which addressing type changes at every router hop?
+MAC address
+IP address
+Port address
+Application address
+MAC address
+
+What happens when a router forwards a packet to another network?
+It re-encapsulates the packet with new MAC addresses
+It deletes the IP address
+It removes the packet header
+It encrypts the packet
+It re-encapsulates the packet with new MAC addresses
+
+What port is commonly used for HTTP web traffic?
+80
+443
+21
+22
+80
+
+Which protocol commonly uses port 80?
+HTTP
+HTTPS
+FTP
+DNS
+HTTP
+
+What port is used for secure web browsing via HTTPS?
+443
+80
+25
+22
+443
+
+Which protocol encrypts web traffic and commonly uses port 443?
+HTTPS
+HTTP
+FTP
+Telnet
+HTTPS
+
+A user opens a secure website with "https://" in the URL. Which port is most likely used?
+443
+80
+53
+21
+443
+
+Which port is commonly used for FTP control connections?
+21
+20
+22
+25
+21
+
+Which port is commonly used for FTP data transfer?
+20
+21
+22
+25
+20
+
+Which protocol uses both port 20 and port 21?
+FTP
+HTTP
+DNS
+Telnet
+FTP
+
+What port is commonly used for sending email using SMTP?
+25
+110
+143
+53
+25
+
+Which protocol typically uses port 25?
+SMTP
+POP3
+HTTP
+DNS
+SMTP
+
+Which port is commonly used for DNS queries?
+53
+67
+68
+69
+53
+
+Which protocol translates domain names into IP addresses and uses port 53?
+DNS
+HTTP
+FTP
+SMTP
+DNS
+
+When your computer looks up the IP address of google.com, which port is most likely used?
+53
+80
+443
+21
+53
+
+Which port is commonly used for Secure Shell remote access?
+22
+23
+21
+25
+22
+
+Which protocol provides secure remote login and commonly uses port 22?
+SSH
+Telnet
+FTP
+HTTP
+SSH
+
+Which port is commonly used for Telnet remote access?
+23
+22
+21
+80
+23
+
+Which protocol allows remote login but is insecure because it does not encrypt traffic?
+Telnet
+SSH
+HTTPS
+FTP
+Telnet
+
+Which port is commonly used by DHCP servers to send IP address assignments?
+67
+68
+69
+53
+67
+
+Which port is used by DHCP clients to receive IP configuration information?
+68
+67
+69
+22
+68
+
+Which protocol dynamically assigns IP addresses to devices in a network?
+DHCP
+DNS
+HTTP
+SMTP
+DHCP
+
+Which port is used by TFTP (Trivial File Transfer Protocol)?
+69
+21
+20
+23
+69
+
+Which protocol is a simplified version of FTP and commonly uses port 69?
+TFTP
+FTP
+HTTP
+SMTP
+TFTP
+
+Which port is used by POP3 to retrieve email from a mail server?
+110
+25
+143
+53
+110
+
+Which protocol downloads emails from a server and commonly uses port 110?
+POP3
+SMTP
+HTTP
+FTP
+POP3
+
+A user sends an email through a mail server. Which port is most likely used?
+25
+110
+53
+80
+25
+
+A user downloads email from their mailbox using POP3. Which port is used?
+110
+25
+21
+80
+110
+
+A system administrator securely connects to a remote Linux server. Which port is used?
+22
+23
+21
+25
+22
+
+A technician logs into a device using an insecure remote terminal connection. Which port is likely used?
+23
+22
+21
+80
+23
+
+A computer is requesting an IP address from a DHCP server. Which client port is used?
+68
+67
+53
+21
+68
+
+Which server port listens for DHCP requests?
+67
+68
+69
+53
+67
+
+Which protocol allows file transfers but is not encrypted by default?
+FTP
+HTTPS
+SSH
+DNS
+FTP
+
+Which port would most likely be used when a browser accesses a normal non-secure website?
+80
+443
+22
+21
+80
+
+Which port would most likely be used when accessing a secure online banking website?
+443
+80
+21
+53
+443
+
+Which port is associated with name resolution services?
+53
+80
+25
+23
+53
+
+Which port is used for a lightweight file transfer protocol often used in device configuration?
+69
+21
+22
+25
+69
